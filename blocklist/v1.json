@@ -1,13 +1,19 @@
 {
   "version": 1,
-  "schema": 1,
-  "updatedAt": "2026-04-28T03:35:00.000Z",
+  "schema": 2,
+  "updatedAt": "2026-04-28T04:00:00.000Z",
   "categories": {
     "scam": {
+      "label": "Scams",
+      "description": "Financial fraud, rug-pulls, impersonators",
+      "defaultOn": true,
       "youtube": [],
       "instagram": []
     },
     "slop": {
+      "label": "Slop",
+      "description": "Low-quality engagement-bait, MrBeast clones, drama farms, reaction farms, kid clickbait \u2014 content not worth your time",
+      "defaultOn": true,
       "youtube": [
         {
           "handle": "@MrBeast",
@@ -251,6 +257,9 @@
       ]
     },
     "ai": {
+      "label": "AI-generated",
+      "description": "AI-generated content (TTS + stock + AI animation, fake news, AI cartoon farms)",
+      "defaultOn": true,
       "youtube": [
         {
           "handle": "@BandarApnaDost",
@@ -264,7 +273,30 @@
       "instagram": []
     },
     "onlyfans": {
+      "label": "OnlyFans promo",
+      "description": "Accounts whose primary purpose is funnelling to OF",
+      "defaultOn": false,
       "youtube": [],
+      "instagram": []
+    },
+    "food": {
+      "label": "Food",
+      "description": "Cooking, recipe, and food-vlog channels \u2014 opt in if food content drowns your feed",
+      "defaultOn": false,
+      "youtube": [
+        {
+          "handle": "@JoshuaWeissman",
+          "channelId": "UChBEbMKI1eCcejTtmI32UEw"
+        },
+        {
+          "handle": "@NickDigiovanni",
+          "channelId": "UCMyOj6fhvKFMjxUCp3b_3gA"
+        },
+        {
+          "handle": "@theshabakitchen",
+          "channelId": "UCO0CeUKwLxXN-3Lfol3D_6w"
+        }
+      ],
       "instagram": []
     }
   }

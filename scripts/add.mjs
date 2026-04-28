@@ -6,7 +6,10 @@
  *   node scripts/add.mjs youtube <category> @handle
  *   node scripts/add.mjs instagram <category> username
  *
- * Categories: scam, spam, ai-slop, rage-bait, onlyfans
+ * Valid categories are read from blocklist/v1.json at runtime — no hardcoded
+ * list to keep in sync. To add a new category, edit the JSON directly (add
+ * a key under `categories` with `label`, `description`, `defaultOn`,
+ * `youtube`, `instagram`).
  *
  * For YouTube: scrapes the channel page HTML to extract `UCxxxxxxxxxxxxxxxxxxxxxx`
  * (immutable channel ID). Survives handle renames.
@@ -30,18 +33,18 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const BLOCKLIST_PATH = resolve(REPO_ROOT, 'blocklist', 'v1.json');
 
-const CATEGORIES = ['scam', 'slop', 'ai', 'onlyfans'];
-
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 // UA still used by Instagram resolver below; YouTube path uses lib/yt.mjs.
 
-function usage(msg) {
+function usage(msg, validCategories = null) {
   if (msg) console.error(`Error: ${msg}\n`);
   console.error('Usage:');
   console.error('  node scripts/add.mjs youtube <category> @handle');
   console.error('  node scripts/add.mjs instagram <category> username');
-  console.error(`\nCategories: ${CATEGORIES.join(', ')}`);
+  if (validCategories) {
+    console.error(`\nValid categories: ${validCategories.join(', ')}`);
+  }
   process.exit(1);
 }
 
@@ -88,11 +91,13 @@ async function main() {
   if (platform !== 'youtube' && platform !== 'instagram') {
     usage(`platform must be 'youtube' or 'instagram', got '${platform}'`);
   }
-  if (!CATEGORIES.includes(category)) usage(`unknown category '${category}'`);
 
   const blocklist = JSON.parse(await readFile(BLOCKLIST_PATH, 'utf8'));
+  const validCategories = Object.keys(blocklist.categories);
+  if (!validCategories.includes(category)) {
+    usage(`unknown category '${category}'`, validCategories);
+  }
   const cat = blocklist.categories[category];
-  if (!cat) usage(`category '${category}' missing from blocklist`);
 
   let entry;
   if (platform === 'youtube') {

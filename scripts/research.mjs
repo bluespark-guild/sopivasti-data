@@ -30,6 +30,8 @@
  * }
  */
 
+import { resolveYouTubeChannel, extractYtInitialData } from './lib/yt.mjs';
+
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
@@ -95,30 +97,6 @@ function classifyUrl(rawUrl) {
     return { ok: true, platform: 'instagram', kind: 'username', username: m[1] };
   }
   return { ok: false, error: `unsupported host: ${host}` };
-}
-
-async function fetchHtml(url) {
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent': UA,
-      Accept:
-        'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-      'Accept-Language': 'en-US,en;q=0.9',
-    },
-    redirect: 'follow',
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return { html: await res.text(), finalUrl: res.url };
-}
-
-function extractYtInitialData(html) {
-  const m = html.match(/var ytInitialData = (\{.+?\});<\/script>/s);
-  if (!m) return null;
-  try {
-    return JSON.parse(m[1]);
-  } catch {
-    return null;
-  }
 }
 
 function pickFirst(...vals) {
@@ -222,38 +200,22 @@ function suggestYoutubeCategory({ name, description, recent }) {
 }
 
 async function researchYoutube(rawUrl, info) {
-  // Always fetch the /videos sub-page — it carries the channel header
-  // metadata AND a populated lockupViewModel grid of recent videos.
-  // The bare /@handle URL goes to /featured which doesn't expose the grid.
-  const baseUrl = rawUrl.replace(/\/+$/, '');
-  const targetUrl = /\/videos$/.test(baseUrl) ? baseUrl : `${baseUrl}/videos`;
-
-  const { html, finalUrl } = await fetchHtml(targetUrl);
-
-  // channelId — try multiple patterns
-  let channelId = null;
-  for (const re of [
-    /"channelId":"(UC[\w-]{22})"/,
-    /<link rel="canonical" href="https:\/\/www\.youtube\.com\/channel\/(UC[\w-]{22})"/,
-    /"externalId":"(UC[\w-]{22})"/,
-  ]) {
-    const m = html.match(re);
-    if (m) { channelId = m[1]; break; }
-  }
-  if (!channelId) {
-    return { errors: ['could not extract channelId from page'] };
+  // Resolve canonical channel ID + handle via shared lib.
+  // For /@handle URLs the lib verifies the resolved page matches the input
+  // handle (rejects on YouTube redirecting to a squatter / different channel).
+  // For /channel/UC... URLs verification is skipped since there's no handle
+  // to compare against.
+  const skipVerification = info.kind === 'channelId';
+  const result = await resolveYouTubeChannel(rawUrl, { skipVerification });
+  if (result.error) {
+    return { errors: [result.error] };
   }
 
-  // handle — from canonical url or initial-data
-  let handle = null;
-  const handleMatch =
-    html.match(/<link rel="canonical" href="https:\/\/www\.youtube\.com\/(@[\w.-]+)"/) ||
-    html.match(/"canonicalChannelUrl":"http:\\\/\\\/www\.youtube\.com\\\/(@[\w.-]+)"/) ||
-    html.match(/"webCommandMetadata":\{"url":"\\?\/(@[\w.-]+)"/);
-  if (handleMatch) handle = handleMatch[1];
-
-  // ytInitialData
-  const data = extractYtInitialData(html);
+  const channelId = result.channelId;
+  const handle = result.vanityHandle;
+  const html = result.html;
+  const finalUrl = rawUrl;
+  const data = result.ytInitialData;
 
   let name = null;
   let description = null;

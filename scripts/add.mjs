@@ -24,6 +24,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
+import { resolveYouTubeChannel } from './lib/yt.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
@@ -33,6 +34,7 @@ const CATEGORIES = ['scam', 'slop', 'ai', 'onlyfans'];
 
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+// UA still used by Instagram resolver below; YouTube path uses lib/yt.mjs.
 
 function usage(msg) {
   if (msg) console.error(`Error: ${msg}\n`);
@@ -44,35 +46,12 @@ function usage(msg) {
 }
 
 async function resolveYouTubeChannelId(handle) {
-  const clean = handle.startsWith('@') ? handle : `@${handle}`;
-  const url = `https://www.youtube.com/${encodeURIComponent(clean)}`;
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent': UA,
-      Accept:
-        'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-      'Accept-Language': 'en-US,en;q=0.9',
-    },
-    redirect: 'follow',
-  });
-  if (!res.ok) {
-    console.warn(`  ⚠ youtube.com/${clean} → HTTP ${res.status}`);
+  const result = await resolveYouTubeChannel(handle);
+  if (result.error) {
+    console.warn(`  ⚠ ${result.error}`);
     return null;
   }
-  const html = await res.text();
-  // Multiple shapes — try in order of reliability.
-  const patterns = [
-    /"channelId":"(UC[\w-]{22})"/,
-    /<link rel="canonical" href="https:\/\/www\.youtube\.com\/channel\/(UC[\w-]{22})"/,
-    /"externalId":"(UC[\w-]{22})"/,
-    /\/channel\/(UC[\w-]{22})/,
-  ];
-  for (const re of patterns) {
-    const m = html.match(re);
-    if (m) return m[1];
-  }
-  console.warn(`  ⚠ could not extract channel ID from HTML`);
-  return null;
+  return result.channelId;
 }
 
 async function resolveInstagramUserId(username) {

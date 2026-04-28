@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-04-28T03:57:22.587Z",
+  "updatedAt": "2026-04-28T04:41:36.084Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -250,6 +250,14 @@
         {
           "handle": "@RawTalkClips-m4w",
           "channelId": "UC78Fz5Xf04BYxoyFQl2rdrA"
+        },
+        {
+          "handle": "@flamingo",
+          "channelId": "UCm-X6o81nRsXQTmqpyArkBQ"
+        },
+        {
+          "handle": "@caylusblox",
+          "channelId": "UCsPMNatXCwqyUuJilBT73jg"
         }
       ],
       "instagram": [

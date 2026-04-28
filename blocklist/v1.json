@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-04-28T04:00:00.000Z",
+  "updatedAt": "2026-04-28T03:57:22.587Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -12,7 +12,7 @@
     },
     "slop": {
       "label": "Slop",
-      "description": "Low-quality engagement-bait, MrBeast clones, drama farms, reaction farms, kid clickbait \u2014 content not worth your time",
+      "description": "Low-quality engagement-bait, MrBeast clones, drama farms, reaction farms, kid clickbait — content not worth your time",
       "defaultOn": true,
       "youtube": [
         {
@@ -242,6 +242,14 @@
         {
           "handle": "@JimmyZhang",
           "channelId": "UCC03-Rich_1-C5sJ2QQAhWA"
+        },
+        {
+          "handle": "@NoahSenseii",
+          "channelId": "UCOIw1SkNw_UDvV278naKuvw"
+        },
+        {
+          "handle": "@RawTalkClips-m4w",
+          "channelId": "UC78Fz5Xf04BYxoyFQl2rdrA"
         }
       ],
       "instagram": [
@@ -281,7 +289,7 @@
     },
     "food": {
       "label": "Food",
-      "description": "Cooking, recipe, and food-vlog channels \u2014 opt in if food content drowns your feed",
+      "description": "Cooking, recipe, and food-vlog channels — opt in if food content drowns your feed",
       "defaultOn": false,
       "youtube": [
         {

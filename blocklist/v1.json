@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-04-28T04:41:36.084Z",
+  "updatedAt": "2026-04-28T12:58:47.573Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -258,6 +258,26 @@
         {
           "handle": "@caylusblox",
           "channelId": "UCsPMNatXCwqyUuJilBT73jg"
+        },
+        {
+          "handle": "@Dylan",
+          "channelId": "UCOhzOImpPwT1klYmttywq3w"
+        },
+        {
+          "handle": "@schlattco",
+          "channelId": "UCsoIIWqR_2OAegsUTkY5E1g"
+        },
+        {
+          "handle": "@jschlattLIVE",
+          "channelId": "UC2mP7il3YV7TxM_3m6U0bwA"
+        },
+        {
+          "handle": "@KSI",
+          "channelId": "UCGmnsW623G1r-Chmo5RB4Yw"
+        },
+        {
+          "handle": "@kickingmustang",
+          "channelId": "UC-Yx-lLW4VPDJa7Or-UoMLQ"
         }
       ],
       "instagram": [

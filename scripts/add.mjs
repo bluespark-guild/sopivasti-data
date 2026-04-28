@@ -29,7 +29,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const BLOCKLIST_PATH = resolve(REPO_ROOT, 'blocklist', 'v1.json');
 
-const CATEGORIES = ['scam', 'spam', 'ai-slop', 'rage-bait', 'onlyfans'];
+const CATEGORIES = ['scam', 'slop', 'ai', 'onlyfans'];
 
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';

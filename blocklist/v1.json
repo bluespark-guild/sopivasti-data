@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-04-28T03:15:00.000Z",
+  "updatedAt": "2026-04-28T03:35:00.000Z",
   "categories": {
     "scam": {
       "youtube": [],
@@ -9,39 +9,255 @@
     },
     "slop": {
       "youtube": [
-        { "handle": "@MrBeast", "channelId": "UCX6OQ3DkcsbYNE6H8uQQuVA" },
-        { "handle": "@MrBeastGaming", "channelId": "UCIPPMRA040LQr5QPyJEbmXA" },
-        { "handle": "@beastreacts", "channelId": "UCAiLfjNXkNv24uhpzUgPa6A" },
-        { "handle": "@DudePerfect", "channelId": "UCRijo3ddMTht_IHyNSNXpNQ" },
-        { "handle": "@Morgz", "channelId": "UCBwSufNse8VMBvQM_rCSvgQ" },
-        { "handle": "@ZHC", "channelId": "UClQubH2NeMmGLTLgNdLBwXg" },
-        { "handle": "@Unspeakable", "channelId": "UCwIWAbIeu0xI0ReKWOcw3eg" },
-        { "handle": "@Preston", "channelId": "UC70Dib4MvFfT1tU6MqeyHpQ" },
-        { "handle": "@SSundee", "channelId": "UCke6I9N4KfC968-yRcd5YRg" },
-        { "handle": "@brentrivera", "channelId": "UC56D-IHcUvLVFTX_8NpQMXg" },
-        { "handle": "@stokestwins", "channelId": "UCbp9MyKCTEww4CxEzc_Tp0Q" },
-        { "handle": "@a4", "channelId": "UC2tsySbe9TNrI-xh2lximHA" },
-        { "handle": "@ryan", "channelId": "UCnmGIkw-KdI0W5siakKPKog" },
-        { "handle": "@airrack", "channelId": "UCyps-v4WNjWDnYRKmZ4BUGw" },
-        { "handle": "@CarterSharer", "channelId": "UCtNBFUsxj2YVbEc5HquzFqg" },
-        { "handle": "@rebeccazamolo", "channelId": "UCfw8x3VR-ElcaWW2Tg_jgSA" },
-        { "handle": "@benazelart", "channelId": "UCwVg9btOceLQuNCdoQk9CXg" },
-        { "handle": "@FaZeRug", "channelId": "UCilwZiBBfI9X6yiZRzWty8Q" },
-        { "handle": "@lazarbeam", "channelId": "UCw1SQ6QRRtfAhrN_cjkrOgA" },
-        { "handle": "@stromedy", "channelId": "UCZhUolzN9vMdkjWrnT9DQ2A" },
-        { "handle": "@tannerfox", "channelId": "UCDLmS9vkPcTz3cAc-c9QIzg" },
-        { "handle": "@jakepaul", "channelId": "UCcgVECVN4OKV6DH1jLkqmcA" },
-        { "handle": "@LoganPaulVlogs", "channelId": "UCG8rbF3g2AMX70yOd8vqIZg" },
-        { "handle": "@dream", "channelId": "UCTkXRDQl0luXxVQrRQvWS6w" },
-        { "handle": "@SSSniperWolf", "channelId": "UCpB959t8iPrxQWj7G6n0ctQ" },
-        { "handle": "@MarkRober", "channelId": "UCY1kMZp36IQSyNx_9h4mpCg" }
+        {
+          "handle": "@MrBeast",
+          "channelId": "UCX6OQ3DkcsbYNE6H8uQQuVA"
+        },
+        {
+          "handle": "@MrBeastGaming",
+          "channelId": "UCIPPMRA040LQr5QPyJEbmXA"
+        },
+        {
+          "handle": "@beastreacts",
+          "channelId": "UCAiLfjNXkNv24uhpzUgPa6A"
+        },
+        {
+          "handle": "@DudePerfect",
+          "channelId": "UCRijo3ddMTht_IHyNSNXpNQ"
+        },
+        {
+          "handle": "@Morgz",
+          "channelId": "UCBwSufNse8VMBvQM_rCSvgQ"
+        },
+        {
+          "handle": "@ZHC",
+          "channelId": "UClQubH2NeMmGLTLgNdLBwXg"
+        },
+        {
+          "handle": "@Unspeakable",
+          "channelId": "UCwIWAbIeu0xI0ReKWOcw3eg"
+        },
+        {
+          "handle": "@Preston",
+          "channelId": "UC70Dib4MvFfT1tU6MqeyHpQ"
+        },
+        {
+          "handle": "@SSundee",
+          "channelId": "UCke6I9N4KfC968-yRcd5YRg"
+        },
+        {
+          "handle": "@brentrivera",
+          "channelId": "UC56D-IHcUvLVFTX_8NpQMXg"
+        },
+        {
+          "handle": "@stokestwins",
+          "channelId": "UCbp9MyKCTEww4CxEzc_Tp0Q"
+        },
+        {
+          "handle": "@a4",
+          "channelId": "UC2tsySbe9TNrI-xh2lximHA"
+        },
+        {
+          "handle": "@ryan",
+          "channelId": "UCnmGIkw-KdI0W5siakKPKog"
+        },
+        {
+          "handle": "@airrack",
+          "channelId": "UCyps-v4WNjWDnYRKmZ4BUGw"
+        },
+        {
+          "handle": "@CarterSharer",
+          "channelId": "UCtNBFUsxj2YVbEc5HquzFqg"
+        },
+        {
+          "handle": "@rebeccazamolo",
+          "channelId": "UCfw8x3VR-ElcaWW2Tg_jgSA"
+        },
+        {
+          "handle": "@benazelart",
+          "channelId": "UCwVg9btOceLQuNCdoQk9CXg"
+        },
+        {
+          "handle": "@FaZeRug",
+          "channelId": "UCilwZiBBfI9X6yiZRzWty8Q"
+        },
+        {
+          "handle": "@lazarbeam",
+          "channelId": "UCw1SQ6QRRtfAhrN_cjkrOgA"
+        },
+        {
+          "handle": "@stromedy",
+          "channelId": "UCZhUolzN9vMdkjWrnT9DQ2A"
+        },
+        {
+          "handle": "@tannerfox",
+          "channelId": "UCDLmS9vkPcTz3cAc-c9QIzg"
+        },
+        {
+          "handle": "@jakepaul",
+          "channelId": "UCcgVECVN4OKV6DH1jLkqmcA"
+        },
+        {
+          "handle": "@LoganPaulVlogs",
+          "channelId": "UCG8rbF3g2AMX70yOd8vqIZg"
+        },
+        {
+          "handle": "@dream",
+          "channelId": "UCTkXRDQl0luXxVQrRQvWS6w"
+        },
+        {
+          "handle": "@SSSniperWolf",
+          "channelId": "UCpB959t8iPrxQWj7G6n0ctQ"
+        },
+        {
+          "handle": "@MarkRober",
+          "channelId": "UCY1kMZp36IQSyNx_9h4mpCg"
+        },
+        {
+          "handle": "@blndsundoll4mj",
+          "channelId": "UCy2A0jf5lYUYQxi7iKHmHhQ"
+        },
+        {
+          "handle": "@TheGabbieShow",
+          "channelId": "UCfBpv6ahDMg7kEClQuMpzzw"
+        },
+        {
+          "handle": "@DramaAlert",
+          "channelId": "UCRtTcZgg9MekxGVTMXy7Epg"
+        },
+        {
+          "handle": "@h3h3Productions",
+          "channelId": "UCLtREJY21xRfCuEKvdki1Kw"
+        },
+        {
+          "handle": "@DefNoodles",
+          "channelId": "UCzztaOtjmaZoiLvWLagq7bg"
+        },
+        {
+          "handle": "@pokimane",
+          "channelId": "UC-t9T8WvzN9Kfnp-WL5hOUw"
+        },
+        {
+          "handle": "@KaiCenat",
+          "channelId": "UCJbYdyufHR-cxOuY96KIoqA"
+        },
+        {
+          "handle": "@IShowSpeed",
+          "channelId": "UCd09ztChTkJ9dlY6RLawSog"
+        },
+        {
+          "handle": "@xQc",
+          "channelId": "UCm7AWK2i3XIs-k-ecR_1Bfw"
+        },
+        {
+          "handle": "@adinross",
+          "channelId": "UCpq0Ou2ObQr-LbTB6hsl8BA"
+        },
+        {
+          "handle": "@Jynxzi",
+          "channelId": "UCyNzZ1wgkOWkzYE0zbs7zhA"
+        },
+        {
+          "handle": "@sneako",
+          "channelId": "UCy5tR9C0xM6tp7ha1Usq9Ag"
+        },
+        {
+          "handle": "@N3ON",
+          "channelId": "UCI3yUCaowNGs-CZWEXPp7hA"
+        },
+        {
+          "handle": "@HasanAbi",
+          "channelId": "UCnI_h3e6b5jGLfly2SY57SA"
+        },
+        {
+          "handle": "@caseoh_",
+          "channelId": "UCr1kbyiJzl-x5YYDxhYJuPw"
+        },
+        {
+          "handle": "@FlightReacts",
+          "channelId": "UCoGIPQ7M4NWai7LRgRhaSOg"
+        },
+        {
+          "handle": "@Sykkuno",
+          "channelId": "UCdX7TkIarhKaV1YYNmIhm7Q"
+        },
+        {
+          "handle": "@PirateSoftware",
+          "channelId": "UCMnULQ6F6kLDAHxofDWIbrw"
+        },
+        {
+          "handle": "@charlidamelio",
+          "channelId": "UCi3OE-aN09WOcN9d2stCvPg"
+        },
+        {
+          "handle": "@addisonrae",
+          "channelId": "UCsjVdwXJydmlSLVT2zDuwpQ"
+        },
+        {
+          "handle": "@bellapoarch",
+          "channelId": "UC1a849vxz0wYBEFMLUwt2sg"
+        },
+        {
+          "handle": "@jamescharles",
+          "channelId": "UCucot-Zp428OwkyRm2I7v2Q"
+        },
+        {
+          "handle": "@KUWTK",
+          "channelId": "UCjDsbbzHgTrGc4Ff26TJtsA"
+        },
+        {
+          "handle": "@FreshandFitClips",
+          "channelId": "UC5sqmi33b7l9kIYa0yASOmQ"
+        },
+        {
+          "handle": "@MyronGainesX",
+          "channelId": "UC4HttNRwamCTHVu_H6i-uvw"
+        },
+        {
+          "handle": "@PBDPodcast",
+          "channelId": "UCIHdDJ0tjn_3j-FS7s_X1kQ"
+        },
+        {
+          "handle": "@valuetainment",
+          "channelId": "UCGX7nGXpz-CmO_Arg-cgJ7A"
+        },
+        {
+          "handle": "@whatever",
+          "channelId": "UCEIC_kfSpKe5NVfAeq1YKAQ"
+        },
+        {
+          "handle": "@Trainwreckstv",
+          "channelId": "UCBrS77VDbZ04fYuEbcMXChw"
+        },
+        {
+          "handle": "@SidemenReacts",
+          "channelId": "UCDogdKl7t7NHzQ95aEwkdMw"
+        },
+        {
+          "handle": "@REACT",
+          "channelId": "UC1tHMVFwZGiqRWe1nTtTZYg"
+        },
+        {
+          "handle": "@JimmyZhang",
+          "channelId": "UCC03-Rich_1-C5sJ2QQAhWA"
+        }
       ],
-      "instagram": []
+      "instagram": [
+        { "handle": "jimmyzhang" },
+        { "handle": "jason.the.ween" },
+        { "handle": "jason.nms" }
+      ]
     },
     "ai": {
       "youtube": [
-        { "handle": "@BandarApnaDost", "channelId": "UCFabwiDctYWqV93d1ZuH8rQ" },
-        { "handle": "@PoutyFrenchie", "channelId": "UC775l4ifggdTkvyPhfm8hLQ" }
+        {
+          "handle": "@BandarApnaDost",
+          "channelId": "UCFabwiDctYWqV93d1ZuH8rQ"
+        },
+        {
+          "handle": "@PoutyFrenchie",
+          "channelId": "UC775l4ifggdTkvyPhfm8hLQ"
+        }
       ],
       "instagram": []
     },

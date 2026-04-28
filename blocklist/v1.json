@@ -1,12 +1,36 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-04-28T11:30:00.000Z",
+  "updatedAt": "2026-04-28T02:51:30.912Z",
   "categories": {
-    "scam":      { "youtube": [], "instagram": [] },
-    "spam":      { "youtube": [], "instagram": [] },
-    "ai-slop":   { "youtube": [], "instagram": [] },
-    "rage-bait": { "youtube": [], "instagram": [] },
-    "onlyfans":  { "youtube": [], "instagram": [] }
+    "scam": {
+      "youtube": [],
+      "instagram": []
+    },
+    "spam": {
+      "youtube": [],
+      "instagram": []
+    },
+    "ai-slop": {
+      "youtube": [
+        {
+          "handle": "@BandarApnaDost",
+          "channelId": "UCFabwiDctYWqV93d1ZuH8rQ"
+        },
+        {
+          "handle": "@PoutyFrenchie",
+          "channelId": "UC775l4ifggdTkvyPhfm8hLQ"
+        }
+      ],
+      "instagram": []
+    },
+    "rage-bait": {
+      "youtube": [],
+      "instagram": []
+    },
+    "onlyfans": {
+      "youtube": [],
+      "instagram": []
+    }
   }
 }

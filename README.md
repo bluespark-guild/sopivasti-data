@@ -47,10 +47,9 @@ If you'd rather edit JSON by hand, both shapes are accepted:
 
 | ID | Default | Use for |
 |---|---|---|
-| `scam` | ON | Rug-pulls, impersonators, financial fraud |
-| `spam` | ON | Bot farms, link spam, mass-engagement accounts |
-| `ai-slop` | ON | Auto-generated low-effort content farms |
-| `rage-bait` | ON | Engagement traps, manufactured drama |
+| `scam` | ON | Financial fraud, rug-pulls, impersonators (objective harm) |
+| `slop` | ON | Low-quality engagement-bait, MrBeast clones, drama farms, reaction farms, kid clickbait — content not worth your time |
+| `ai` | ON | AI-generated content (TTS + stock + AI animation, fake news, AI cartoon farms) |
 | `onlyfans` | OFF | Accounts whose primary purpose is funnelling to OF (subjective — users opt in) |
 
 Adding a new category requires both:
@@ -73,11 +72,10 @@ https://raw.githubusercontent.com/bluespark-guild/sopivasti-data/master/blocklis
   "schema": 1,
   "updatedAt": "<ISO 8601 timestamp>",
   "categories": {
-    "scam":      { "youtube": [<entry>...], "instagram": [<entry>...] },
-    "spam":      { "youtube": [],           "instagram": [] },
-    "ai-slop":   { "youtube": [],           "instagram": [] },
-    "rage-bait": { "youtube": [],           "instagram": [] },
-    "onlyfans":  { "youtube": [],           "instagram": [] }
+    "scam":     { "youtube": [<entry>...], "instagram": [<entry>...] },
+    "slop":     { "youtube": [],           "instagram": [] },
+    "ai":       { "youtube": [],           "instagram": [] },
+    "onlyfans": { "youtube": [],           "instagram": [] }
   }
 }
 ```

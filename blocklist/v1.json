@@ -1,31 +1,48 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-04-28T02:51:30.912Z",
+  "updatedAt": "2026-04-28T03:15:00.000Z",
   "categories": {
     "scam": {
       "youtube": [],
       "instagram": []
     },
-    "spam": {
-      "youtube": [],
-      "instagram": []
-    },
-    "ai-slop": {
+    "slop": {
       "youtube": [
-        {
-          "handle": "@BandarApnaDost",
-          "channelId": "UCFabwiDctYWqV93d1ZuH8rQ"
-        },
-        {
-          "handle": "@PoutyFrenchie",
-          "channelId": "UC775l4ifggdTkvyPhfm8hLQ"
-        }
+        { "handle": "@MrBeast", "channelId": "UCX6OQ3DkcsbYNE6H8uQQuVA" },
+        { "handle": "@MrBeastGaming", "channelId": "UCIPPMRA040LQr5QPyJEbmXA" },
+        { "handle": "@beastreacts", "channelId": "UCAiLfjNXkNv24uhpzUgPa6A" },
+        { "handle": "@DudePerfect", "channelId": "UCRijo3ddMTht_IHyNSNXpNQ" },
+        { "handle": "@Morgz", "channelId": "UCBwSufNse8VMBvQM_rCSvgQ" },
+        { "handle": "@ZHC", "channelId": "UClQubH2NeMmGLTLgNdLBwXg" },
+        { "handle": "@Unspeakable", "channelId": "UCwIWAbIeu0xI0ReKWOcw3eg" },
+        { "handle": "@Preston", "channelId": "UC70Dib4MvFfT1tU6MqeyHpQ" },
+        { "handle": "@SSundee", "channelId": "UCke6I9N4KfC968-yRcd5YRg" },
+        { "handle": "@brentrivera", "channelId": "UC56D-IHcUvLVFTX_8NpQMXg" },
+        { "handle": "@stokestwins", "channelId": "UCbp9MyKCTEww4CxEzc_Tp0Q" },
+        { "handle": "@a4", "channelId": "UC2tsySbe9TNrI-xh2lximHA" },
+        { "handle": "@ryan", "channelId": "UCnmGIkw-KdI0W5siakKPKog" },
+        { "handle": "@airrack", "channelId": "UCyps-v4WNjWDnYRKmZ4BUGw" },
+        { "handle": "@CarterSharer", "channelId": "UCtNBFUsxj2YVbEc5HquzFqg" },
+        { "handle": "@rebeccazamolo", "channelId": "UCfw8x3VR-ElcaWW2Tg_jgSA" },
+        { "handle": "@benazelart", "channelId": "UCwVg9btOceLQuNCdoQk9CXg" },
+        { "handle": "@FaZeRug", "channelId": "UCilwZiBBfI9X6yiZRzWty8Q" },
+        { "handle": "@lazarbeam", "channelId": "UCw1SQ6QRRtfAhrN_cjkrOgA" },
+        { "handle": "@stromedy", "channelId": "UCZhUolzN9vMdkjWrnT9DQ2A" },
+        { "handle": "@tannerfox", "channelId": "UCDLmS9vkPcTz3cAc-c9QIzg" },
+        { "handle": "@jakepaul", "channelId": "UCcgVECVN4OKV6DH1jLkqmcA" },
+        { "handle": "@LoganPaulVlogs", "channelId": "UCG8rbF3g2AMX70yOd8vqIZg" },
+        { "handle": "@dream", "channelId": "UCTkXRDQl0luXxVQrRQvWS6w" },
+        { "handle": "@SSSniperWolf", "channelId": "UCpB959t8iPrxQWj7G6n0ctQ" },
+        { "handle": "@MarkRober", "channelId": "UCY1kMZp36IQSyNx_9h4mpCg" }
       ],
       "instagram": []
     },
-    "rage-bait": {
-      "youtube": [],
+    "ai": {
+      "youtube": [
+        { "handle": "@BandarApnaDost", "channelId": "UCFabwiDctYWqV93d1ZuH8rQ" },
+        { "handle": "@PoutyFrenchie", "channelId": "UC775l4ifggdTkvyPhfm8hLQ" }
+      ],
       "instagram": []
     },
     "onlyfans": {

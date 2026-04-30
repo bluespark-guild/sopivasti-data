@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-04-30T06:23:03.931Z",
+  "updatedAt": "2026-04-30T08:39:07.812Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -686,6 +686,405 @@
         {
           "handle": "@topperguild",
           "channelId": "UCPuEAY09CtdTzFNWuqVZgDw"
+        },
+        {
+          "handle": "@capitanyolotroll",
+          "channelId": "UCQ8TuCvcDMepleXFyOQfyOQ"
+        },
+        {
+          "handle": "@jesser",
+          "channelId": "UCQIUhhcmXsu6cN6n3y9-Pww"
+        },
+        {
+          "handle": "@kimberlyloaiza",
+          "channelId": "UCQZfFRohQ7UX-0CdXl-6pwQ"
+        },
+        {
+          "handle": "@rhia.official",
+          "channelId": "UCQdsJ95w9jh-yB0BA6EDGWA"
+        },
+        {
+          "handle": "@abpnews",
+          "channelId": "UCRWFSbif-RFENbBrSiez1DA"
+        },
+        {
+          "handle": "@naofunfun",
+          "channelId": "UCS3VJQpFmLbBd5qsWci9KPA"
+        },
+        {
+          "handle": "@likenastya_show",
+          "channelId": "UCS94J1s6-qc8v7btCdS2pNg"
+        },
+        {
+          "handle": "@lankybox",
+          "channelId": "UCSf0s2ogUVYpJPuzW1zpAOg"
+        },
+        {
+          "handle": "@mrindianhacker",
+          "channelId": "UCSiDGb0MnHFGjs4E2WKvShw"
+        },
+        {
+          "handle": "@akirac5",
+          "channelId": "UCSn81i342OnfDjygCUb1PcA"
+        },
+        {
+          "handle": "@lagranjadelborrego",
+          "channelId": "UCSvaaQGkoOmISS54UCITg4w"
+        },
+        {
+          "handle": "@egorik.shkred",
+          "channelId": "UCUHQKxU-_DWsrwBxlKWgsew"
+        },
+        {
+          "handle": "@thegeetagurjar",
+          "channelId": "UCUL9We-R1aCC3GAe-RvOx5g"
+        },
+        {
+          "handle": "@nonomen",
+          "channelId": "UCUdJc8_Ah8BYBp4uhP-XO-Q"
+        },
+        {
+          "handle": "@heybrandonb",
+          "channelId": "UCUnmH8N8k4E7y3dKfCzDKKg"
+        },
+        {
+          "handle": "@felipeneto",
+          "channelId": "UCV306eHqgo0LvBf3Mh36AHg"
+        },
+        {
+          "handle": "@turmadamonica",
+          "channelId": "UCV4XcEqBswMCryorV_gNENw"
+        },
+        {
+          "handle": "@bispobrunoleonardo",
+          "channelId": "UCVNouUw3d3l5JYVCxhAQXKA"
+        },
+        {
+          "handle": "@joojnatu",
+          "channelId": "UCVVksn-TMGmkwvirl_neMWw"
+        },
+        {
+          "handle": "@ksiofficialmusic",
+          "channelId": "UCVtFOytbRpEvzLjvqGG5gxQ"
+        },
+        {
+          "handle": "@vilyambruno",
+          "channelId": "UCWXCAM8i0N6ZdShx8EqPSzg"
+        },
+        {
+          "handle": "@sagawa",
+          "channelId": "UCWaOde99oeUVoXbIj3SNu9g"
+        },
+        {
+          "handle": "@squeezie",
+          "channelId": "UCWeg2Pkate69NFdBeuRFTAw"
+        },
+        {
+          "handle": "@technogamerzofficial",
+          "channelId": "UCX8pnu3DYUnx8qy8V_c6oHg"
+        },
+        {
+          "handle": "@alia",
+          "channelId": "UCYVinkwSX7szARULgYpvhLw"
+        },
+        {
+          "handle": "@robinhoodgamer1",
+          "channelId": "UCYtaoJSk9iIrFxx8eZB15ag"
+        },
+        {
+          "handle": "@germanspidey",
+          "channelId": "UCZAoGCaaxobl_C6khvgQAtg"
+        },
+        {
+          "handle": "@mrmaxlife",
+          "channelId": "UC_8PAD0Qmi6_gpe77S1Atgg"
+        },
+        {
+          "handle": "@saregamamusic",
+          "channelId": "UC_A7K2dXFsTMAciGmnNxy-Q"
+        },
+        {
+          "handle": "@ideasen5minutosoficial",
+          "channelId": "UC_OLtzRJdg0MJfiqGWAAIHw"
+        },
+        {
+          "handle": "@luccasneto",
+          "channelId": "UC_gV70G_Y51LTa3qhu8KiEA"
+        },
+        {
+          "handle": "@rickylimon",
+          "channelId": "UCaK9J_lZbUjVixFHuP4vYag"
+        },
+        {
+          "handle": "@jamienyland",
+          "channelId": "UCaTzBPf2rmS3ClFbnmOzkqw"
+        },
+        {
+          "handle": "@tseriesbhaktisagar",
+          "channelId": "UCaayLD9i5x4MmIoVZxXSv_g"
+        },
+        {
+          "handle": "@luanaaa",
+          "channelId": "UCaj7AVYY8kNjmmNYWXg3YGg"
+        },
+        {
+          "handle": "@cocomelon",
+          "channelId": "UCbCmjCuTUZos6Inko4u57UQ"
+        },
+        {
+          "handle": "@rezendeevil",
+          "channelId": "UCbTVTephX30ZhQF5zwFppBg"
+        },
+        {
+          "handle": "@cadresplayer",
+          "channelId": "UCbWYmIdZ2hpVMpPhRI9pI5Q"
+        },
+        {
+          "handle": "@gatogalactico",
+          "channelId": "UCbt4SegZBQLeXMTMvnrfZtw"
+        },
+        {
+          "handle": "@vladvaniki1",
+          "channelId": "UCcOMTVILq-yIqtFmOqt-QOg"
+        },
+        {
+          "handle": "@misskaty1133",
+          "channelId": "UCcartHVtvAUzfajflyeT_Gg"
+        },
+        {
+          "handle": "@pinkfong",
+          "channelId": "UCcdwLMPsaU2ezNSJU1nFoBQ"
+        },
+        {
+          "handle": "@dankar",
+          "channelId": "UCcvSMLuj0OcAASPsTyVlzBA"
+        },
+        {
+          "handle": "@gh.s",
+          "channelId": "UCdrBnBNLsN4_cH32HWbr9qg"
+        },
+        {
+          "handle": "@mrdegreeofficial",
+          "channelId": "UCeYTfGpNCmVhlxjQxBDrGPA"
+        },
+        {
+          "handle": "@cmarulho",
+          "channelId": "UCefnOSmxkOzKR3aUdxgVnsQ"
+        },
+        {
+          "handle": "@bbcnewsarabic",
+          "channelId": "UCelk6aHijZq-GJBBB9YpReA"
+        },
+        {
+          "handle": "@mrmarmok",
+          "channelId": "UCf31Gf5nCU8J6eUlr7QSU0w"
+        },
+        {
+          "handle": "@slick_slime_sam_spanish",
+          "channelId": "UCfRgJADdLXwrcjIuTxn_u3Q"
+        },
+        {
+          "handle": "@toysandcolors",
+          "channelId": "UCgFXm4TI8htWmCyJ6cVPG_A"
+        },
+        {
+          "handle": "@shortsbreak_official",
+          "channelId": "UCgJ5_1F6yJhYLnyMszUdmUg"
+        },
+        {
+          "handle": "@realfoolsshorts63",
+          "channelId": "UCgKEvLp8DXCTMq4QY6wW7bw"
+        },
+        {
+          "handle": "@secretvlog",
+          "channelId": "UCgqy_Kgctp5quGUsvIyqKVw"
+        },
+        {
+          "handle": "@amixem",
+          "channelId": "UCgvqvBoSHB1ctlyyhoHrGwQ"
+        },
+        {
+          "handle": "@ryansworld",
+          "channelId": "UChGJGhZ9SOOHvBB0Y4DOO_w"
+        },
+        {
+          "handle": "@renatogarciayoutuber",
+          "channelId": "UChMJkHCD2wdvSO7CMOuLR-w"
+        },
+        {
+          "handle": "@kimpro828",
+          "channelId": "UCiVs2pnGW5mLIc1jS2nxhjg"
+        },
+        {
+          "handle": "@ranoshome123",
+          "channelId": "UCigARRf_7r_XnexNxP5BW-g"
+        },
+        {
+          "handle": "@vocesabia",
+          "channelId": "UCj0O6W8yDuLg3iraAXKgCrQ"
+        },
+        {
+          "handle": "@carryminati",
+          "channelId": "UCj22tfcQrWG7EMEKS0qLeEg"
+        },
+        {
+          "handle": "@natanporai",
+          "channelId": "UCjaxmdb_gTWbz9XF5rzvgGg"
+        },
+        {
+          "handle": "@junya1gou",
+          "channelId": "UCjp_3PEaOau_nT_3vnqKIvg"
+        },
+        {
+          "handle": "@kidsdianashow",
+          "channelId": "UCk8GzjMOrta8yxDcKfylJYw"
+        },
+        {
+          "handle": "@cure0721",
+          "channelId": "UCkLNHZZsC3LKdUAroKNwOOw"
+        },
+        {
+          "handle": "@mispastelitos",
+          "channelId": "UCkjjH0hsvaeRIuwGlM9oSvg"
+        },
+        {
+          "handle": "@youneszarou",
+          "channelId": "UClR74BSOFXxMOKtuaaPu91Q"
+        },
+        {
+          "handle": "@sushiramen-riku",
+          "channelId": "UCljYHFazflmGaDr5Lo90KmA"
+        },
+        {
+          "handle": "@mcdivertida",
+          "channelId": "UCllJguE1AIxYBmZJ8NUWiHg"
+        },
+        {
+          "handle": "@martaandrustam",
+          "channelId": "UCm-Qr3k89gtXcuv2jL29XFw"
+        },
+        {
+          "handle": "@ultrabollywood",
+          "channelId": "UCmL1WlDI8UkXDXCXcBQN9CA"
+        },
+        {
+          "handle": "@crescendocomluluca",
+          "channelId": "UCnrGkE2AmBAv6Vxj6kjf1jg"
+        },
+        {
+          "handle": "@michou",
+          "channelId": "UCo3i0nUzZjjLuM7VjAVz4zA"
+        },
+        {
+          "handle": "@tucosmopolis",
+          "channelId": "UCo4ywJQXfUIB0lCBpczW3cA"
+        },
+        {
+          "handle": "@dushyant_kukreja",
+          "channelId": "UCo6y9hnRawAqtyWhRhblXqg"
+        },
+        {
+          "handle": "@woodyandkleiny",
+          "channelId": "UCoGForHQAmk0_9rI9CABeYw"
+        },
+        {
+          "handle": "@fedevigevani",
+          "channelId": "UCoQm-PeHC-cbJclKJYJ8LzA"
+        },
+        {
+          "handle": "@lizabaez",
+          "channelId": "UCoWpURVabfgqPUeKljAaEOA"
+        },
+        {
+          "handle": "@futcrunch",
+          "channelId": "UCop6604O_QwmEum6e0Riz2w"
+        },
+        {
+          "handle": "@chuyminevt",
+          "channelId": "UCoyFOWWMlWFAmSoeEiTsnXg"
+        },
+        {
+          "handle": "@emizickovic",
+          "channelId": "UCpCLsVt-9LhvDKvEzE7Kw7A"
+        },
+        {
+          "handle": "@coffichannel",
+          "channelId": "UCpDzpaUTbIkdjkCZ9pmfMrA"
+        },
+        {
+          "handle": "@likenastya_esp",
+          "channelId": "UCpEJRZdSpdVZ8vh63T9I2KQ"
+        },
+        {
+          "handle": "@tiboinshape",
+          "channelId": "UCpWaR3gNAQGsX48cIlQC0qw"
+        },
+        {
+          "handle": "@zeetv",
+          "channelId": "UCppHT7SZKKvar4Oc9J4oljQ"
+        },
+        {
+          "handle": "@julianabaltar",
+          "channelId": "UCqDauP_ke8Lwt8Hg3Xv-8Iw"
+        },
+        {
+          "handle": "@dianaandromaesp",
+          "channelId": "UCqNmJfc7RgMU6hTxOOuCYHQ"
+        },
+        {
+          "handle": "@matheuskriwat",
+          "channelId": "UCqTFYCCiiI-5Bb_DbqywiQw"
+        },
+        {
+          "handle": "@%ED%95%91%ED%81%AC%ED%90%81"
+        },
+        {
+          "handle": "@teremoksongs",
+          "channelId": "UCqZZoXlUEki3H7_GCQrw53A"
+        },
+        {
+          "handle": "@detoxomoroxo-oficial",
+          "channelId": "UCq_oSgHK9lk6NUUgkhUOPnw"
+        },
+        {
+          "handle": "@nando",
+          "channelId": "UCqma_8hr8yOgr37wdUY-E7Q"
+        },
+        {
+          "handle": "@haertetest",
+          "channelId": "UCqsS8fU6yVxrJr5y_CoUn3w"
+        },
+        {
+          "handle": "@chuuymine",
+          "channelId": "UCrPWiqy4AmzFruDvWONex6w"
+        },
+        {
+          "handle": "@user-ts8yv9np7m",
+          "channelId": "UCraaN4FiNe7l3F4XR6s246A"
+        },
+        {
+          "handle": "@edisonpts",
+          "channelId": "UCrpt82vHWIWZSHtNQxncPrg"
+        },
+        {
+          "handle": "@missasinfonia",
+          "channelId": "UCsCQIvK0LGpb3dBRo2RXAfA"
+        },
+        {
+          "handle": "@skibidi",
+          "channelId": "UCsSsgPaZ2GSmO6il8Cb5iGA"
+        },
+        {
+          "handle": "@mayamystic",
+          "channelId": "UCsbzkA9S4TPhkt2Kl2Rx3ig"
+        },
+        {
+          "handle": "@aajtak",
+          "channelId": "UCt4t-jeY85JegMlZ-E5UWtA"
+        },
+        {
+          "handle": "@hitechislamic",
+          "channelId": "UCtKKyuORzErSd7TWfkunxsw"
         }
       ],
       "instagram": [

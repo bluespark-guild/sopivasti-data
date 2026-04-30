@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-04-28T12:58:47.573Z",
+  "updatedAt": "2026-04-30T02:12:05.512Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -278,6 +278,14 @@
         {
           "handle": "@kickingmustang",
           "channelId": "UC-Yx-lLW4VPDJa7Or-UoMLQ"
+        },
+        {
+          "handle": "@schrodingerLeeOfficial",
+          "channelId": "UCmxbPURszE7ojc6Bs_5pBEQ"
+        },
+        {
+          "handle": "@BadFriendsClips",
+          "channelId": "UCmuRHGhh-g0f9f5JiuW6dMw"
         }
       ],
       "instagram": [

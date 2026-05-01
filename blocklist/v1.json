@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-01T08:41:45.294Z",
+  "updatedAt": "2026-05-01T23:40:31.161Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1377,6 +1377,10 @@
         {
           "handle": "@swanthevoice",
           "channelId": "UCzYC9ss2P77Ry2LzIDL5Xsw"
+        },
+        {
+          "handle": "@Jackdohertyy",
+          "channelId": "UCkj8f9sqSKuzn-NyP7Os1ZQ"
         }
       ],
       "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-01T23:40:31.161Z",
+  "updatedAt": "2026-05-02T06:35:59.542Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1381,6 +1381,18 @@
         {
           "handle": "@Jackdohertyy",
           "channelId": "UCkj8f9sqSKuzn-NyP7Os1ZQ"
+        },
+        {
+          "handle": "@InvisibleFire_YT",
+          "channelId": "UCuFTJ8qJt3sNe6BKbDjaVgw"
+        },
+        {
+          "handle": "@Mr.Clabik-Friends",
+          "channelId": "UCHV7RCyRcvPNZMVkKIf1YRA"
+        },
+        {
+          "handle": "@hmelkofm",
+          "channelId": "UCE8o2AWXA7SXZj7dcTQGZRA"
         }
       ],
       "instagram": [

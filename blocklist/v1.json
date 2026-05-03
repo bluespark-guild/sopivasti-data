@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T06:43:31.394Z",
+  "updatedAt": "2026-05-03T11:37:57.833Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1530,6 +1530,14 @@
         {
           "handle": "@ClipZoneHighOctaneHits",
           "channelId": "UCwXgxPwky2cyU7iNXeV75LA"
+        },
+        {
+          "handle": "@iamgrantowen",
+          "channelId": "UC2j9uoi_sB8MjMVn5X7w9IQ"
+        },
+        {
+          "handle": "@TheVexEffect",
+          "channelId": "UCo1rqELJitYS6eJgWLmJYbg"
         }
       ],
       "instagram": [

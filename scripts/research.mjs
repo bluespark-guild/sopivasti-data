@@ -12,10 +12,10 @@
  * Output shape:
  * {
  *   "valid": boolean,
- *   "platform": "youtube" | "instagram" | null,
+ *   "platform": "youtube" | "instagram" | "tiktok" | null,
  *   "handle": string | null,
  *   "channelId": string | null,    // YT only
- *   "userId": string | null,        // IG only
+ *   "userId": string | null,        // IG only / TikTok (when resolvable)
  *   "name": string | null,
  *   "subs": string | null,
  *   "videoCount": number | null,
@@ -95,6 +95,18 @@ function classifyUrl(rawUrl) {
       return { ok: false, error: `'${m[1]}' is a reserved IG path, not a profile` };
     }
     return { ok: true, platform: 'instagram', kind: 'username', username: m[1] };
+  }
+  if (host === 'tiktok.com' || host === 'vm.tiktok.com') {
+    if (host === 'vm.tiktok.com') {
+      return { ok: false, error: 'vm.tiktok.com is a video shortlink, not a profile' };
+    }
+    // /@username — sometimes followed by /video/<id>, /live, /following, etc.
+    const m = path.match(/^\/@([\w.-]+)/);
+    if (!m) return { ok: false, error: 'tiktok URL must point to a /@handle profile' };
+    if (path.match(/^\/@[\w.-]+\/video\//)) {
+      return { ok: false, error: 'tiktok video URL — paste the /@handle profile URL instead' };
+    }
+    return { ok: true, platform: 'tiktok', kind: 'username', username: m[1] };
   }
   return { ok: false, error: `unsupported host: ${host}` };
 }
@@ -438,6 +450,106 @@ async function researchInstagram(rawUrl, info) {
   };
 }
 
+async function researchTikTok(rawUrl, info) {
+  // TikTok aggressively anti-bots. Best effort: hit the public profile HTML
+  // and parse the SIGI_STATE / __UNIVERSAL_DATA_FOR_REHYDRATION__ blob if
+  // the response is even HTML. On block (403/captcha/empty), fall back to
+  // handle-only output so add.mjs can still write the entry.
+  const username = info.username;
+  const profileUrl = `https://www.tiktok.com/@${username}`;
+  let name = null;
+  let description = null;
+  let avatar = null;
+  let userId = null;
+  const errors = [];
+
+  try {
+    const res = await fetch(profileUrl, {
+      headers: {
+        'User-Agent': UA,
+        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+      redirect: 'follow',
+    });
+    if (!res.ok) {
+      errors.push(`TikTok HTTP ${res.status}`);
+    } else {
+      const html = await res.text();
+      // Modern TikTok ships state in a script tag with this id.
+      const m = html.match(
+        /<script[^>]*id="__UNIVERSAL_DATA_FOR_REHYDRATION__"[^>]*>([\s\S]*?)<\/script>/,
+      );
+      if (m) {
+        try {
+          const data = JSON.parse(m[1]);
+          const userInfo = deepFind(
+            data,
+            (o) => o && typeof o === 'object' && 'user' in o && o.user && typeof o.user === 'object' && 'uniqueId' in o.user,
+          );
+          if (userInfo?.user) {
+            const u = userInfo.user;
+            userId = typeof u.id === 'string' ? u.id : null;
+            name = pickFirst(u.nickname, u.uniqueId);
+            description = pickFirst(u.signature);
+            avatar = pickFirst(u.avatarLarger, u.avatarMedium, u.avatarThumb);
+          }
+        } catch (e) {
+          errors.push(`TikTok state parse: ${(e && e.message) || e}`);
+        }
+      }
+      // og:image fallback for avatar
+      if (!avatar) {
+        const og = html.match(/<meta property="og:image" content="([^"]+)"/);
+        if (og) avatar = og[1];
+      }
+      // og:title fallback for name
+      if (!name) {
+        const og = html.match(/<meta property="og:title" content="([^"]+)"/);
+        if (og) name = og[1];
+      }
+      if (!description) {
+        const md = html.match(/<meta name="description" content="([^"]+)"/);
+        if (md) description = md[1];
+      }
+    }
+  } catch (e) {
+    errors.push(`TikTok fetch error: ${(e && e.message) || e}`);
+  }
+
+  // Heuristic category suggestion from bio text only — TikTok recent-video
+  // captions aren't reliably parsable from the homepage HTML.
+  const haystack = ((name || '') + ' ' + (description || '')).toLowerCase();
+  let suggestedCategory = null;
+  let reasoning = 'No strong signal from bio.';
+  if (/onlyfans|fansly|link in bio.*18\+|spicy/i.test(haystack)) {
+    suggestedCategory = 'onlyfans';
+    reasoning = 'Bio references OnlyFans / link-in-bio-NSFW funnel.';
+  } else if (/crypto|forex|guaranteed.*returns|10x|passive income/i.test(haystack)) {
+    suggestedCategory = 'scam';
+    reasoning = 'Bio mentions crypto / forex / "guaranteed returns".';
+  }
+
+  return {
+    valid: true,
+    platform: 'tiktok',
+    handle: username,
+    channelId: null,
+    userId,
+    name,
+    subs: null,
+    videoCount: null,
+    description,
+    avatar,
+    banner: null,
+    recent: [],
+    channelUrl: profileUrl,
+    suggestedCategory,
+    reasoning,
+    errors,
+  };
+}
+
 async function main() {
   const url = process.argv[2];
   if (!url) {
@@ -452,9 +564,10 @@ async function main() {
   }
 
   try {
-    const result = info.platform === 'youtube'
-      ? await researchYoutube(url, info)
-      : await researchInstagram(url, info);
+    let result;
+    if (info.platform === 'youtube') result = await researchYoutube(url, info);
+    else if (info.platform === 'instagram') result = await researchInstagram(url, info);
+    else result = await researchTikTok(url, info);
     if (!CATEGORIES.includes(result.suggestedCategory) && result.suggestedCategory !== null) {
       result.suggestedCategory = null;
     }

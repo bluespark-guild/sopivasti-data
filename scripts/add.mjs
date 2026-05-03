@@ -5,11 +5,12 @@
  * Usage:
  *   node scripts/add.mjs youtube <category> @handle
  *   node scripts/add.mjs instagram <category> username
+ *   node scripts/add.mjs tiktok <category> @handle
  *
  * Valid categories are read from blocklist/v1.json at runtime — no hardcoded
  * list to keep in sync. To add a new category, edit the JSON directly (add
  * a key under `categories` with `label`, `description`, `defaultOn`,
- * `youtube`, `instagram`).
+ * `youtube`, `instagram`, `tiktok`).
  *
  * For YouTube: scrapes the channel page HTML to extract `UCxxxxxxxxxxxxxxxxxxxxxx`
  * (immutable channel ID). Survives handle renames.
@@ -18,6 +19,9 @@
  * with the public X-IG-App-ID header to extract numeric user ID.
  * IG aggressively anti-scrapes — this may fail; if it does, the entry
  * is added with handle only (rename-vulnerable but functional).
+ *
+ * For TikTok: parses the public profile HTML for the rehydration blob's
+ * numeric user id. Also prone to anti-bot blocks; falls back to handle-only.
  *
  * Bumps `updatedAt`. Stages the change. Commit + push manually:
  *   git commit -m "blocklist: add @handle (category — reason)"
@@ -42,6 +46,7 @@ function usage(msg, validCategories = null) {
   console.error('Usage:');
   console.error('  node scripts/add.mjs youtube <category> @handle');
   console.error('  node scripts/add.mjs instagram <category> username');
+  console.error('  node scripts/add.mjs tiktok <category> @handle');
   if (validCategories) {
     console.error(`\nValid categories: ${validCategories.join(', ')}`);
   }
@@ -55,6 +60,62 @@ async function resolveYouTubeChannelId(handle) {
     return null;
   }
   return result.channelId;
+}
+
+async function resolveTikTokUserId(username) {
+  // Public profile HTML carries the rehydration JSON blob. The id is buried
+  // under user.uniqueId / user.id. TikTok blocks aggressively — if the
+  // response isn't HTML or the blob is missing, return null and let the
+  // caller persist handle-only.
+  const url = `https://www.tiktok.com/@${encodeURIComponent(username)}`;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': UA,
+        Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+      redirect: 'follow',
+    });
+    if (!res.ok) {
+      console.warn(`  ⚠ tiktok HTTP ${res.status} (anti-bot likely; ID lookup skipped)`);
+      return null;
+    }
+    const html = await res.text();
+    const m = html.match(
+      /<script[^>]*id="__UNIVERSAL_DATA_FOR_REHYDRATION__"[^>]*>([\s\S]*?)<\/script>/,
+    );
+    if (!m) {
+      console.warn(`  ⚠ tiktok rehydration blob missing (anti-bot interstitial?)`);
+      return null;
+    }
+    const data = JSON.parse(m[1]);
+    const id = findTikTokId(data, username.toLowerCase());
+    if (id) return id;
+    console.warn(`  ⚠ tiktok id not found in rehydration blob`);
+    return null;
+  } catch (e) {
+    console.warn(`  ⚠ tiktok fetch error: ${(e && e.message) || e}`);
+    return null;
+  }
+}
+
+function findTikTokId(obj, expectedUniqueId, depth = 0) {
+  if (depth > 10 || !obj || typeof obj !== 'object') return null;
+  if (
+    obj.user &&
+    typeof obj.user === 'object' &&
+    typeof obj.user.id === 'string' &&
+    typeof obj.user.uniqueId === 'string' &&
+    obj.user.uniqueId.toLowerCase() === expectedUniqueId
+  ) {
+    return obj.user.id;
+  }
+  for (const key of Object.keys(obj)) {
+    const found = findTikTokId(obj[key], expectedUniqueId, depth + 1);
+    if (found) return found;
+  }
+  return null;
 }
 
 async function resolveInstagramUserId(username) {
@@ -88,8 +149,8 @@ async function resolveInstagramUserId(username) {
 async function main() {
   const [, , platform, category, rawHandle] = process.argv;
   if (!platform || !category || !rawHandle) usage('missing arguments');
-  if (platform !== 'youtube' && platform !== 'instagram') {
-    usage(`platform must be 'youtube' or 'instagram', got '${platform}'`);
+  if (platform !== 'youtube' && platform !== 'instagram' && platform !== 'tiktok') {
+    usage(`platform must be 'youtube', 'instagram', or 'tiktok', got '${platform}'`);
   }
 
   const blocklist = JSON.parse(await readFile(BLOCKLIST_PATH, 'utf8'));
@@ -115,7 +176,7 @@ async function main() {
         ? `  ✓ added ${handle} → ${channelId}`
         : `  ✓ added ${handle} (handle only — ID lookup failed)`,
     );
-  } else {
+  } else if (platform === 'instagram') {
     const username = rawHandle.replace(/^@/, '');
     if (cat.instagram.some((e) => entryHandle(e).toLowerCase() === username.toLowerCase())) {
       console.log(`  · ${username} already in ${category}/instagram — skipping`);
@@ -129,6 +190,23 @@ async function main() {
       userId
         ? `  ✓ added ${username} → ${userId}`
         : `  ✓ added ${username} (handle only — ID lookup failed)`,
+    );
+  } else {
+    // tiktok
+    if (!Array.isArray(cat.tiktok)) cat.tiktok = [];
+    const username = rawHandle.replace(/^@/, '');
+    if (cat.tiktok.some((e) => entryHandle(e).toLowerCase() === username.toLowerCase())) {
+      console.log(`  · @${username} already in ${category}/tiktok — skipping`);
+      return;
+    }
+    console.log(`Resolving user ID for @${username}…`);
+    const userId = await resolveTikTokUserId(username);
+    entry = userId ? { handle: username, userId } : { handle: username };
+    cat.tiktok.push(entry);
+    console.log(
+      userId
+        ? `  ✓ added @${username} → ${userId}`
+        : `  ✓ added @${username} (handle only — ID lookup failed)`,
     );
   }
 

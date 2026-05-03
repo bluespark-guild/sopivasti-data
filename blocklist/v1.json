@@ -1,14 +1,15 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T02:28:26.414Z",
+  "updatedAt": "2026-05-03T02:36:56.090Z",
   "categories": {
     "scam": {
       "label": "Scams",
       "description": "Financial fraud, rug-pulls, impersonators",
       "defaultOn": true,
       "youtube": [],
-      "instagram": []
+      "instagram": [],
+      "tiktok": []
     },
     "slop": {
       "label": "Slop",
@@ -1514,6 +1515,12 @@
         {
           "handle": "jasminandjames"
         }
+      ],
+      "tiktok": [
+        {
+          "handle": "jamesandjasmin",
+          "userId": "6965454830602191878"
+        }
       ]
     },
     "ai": {
@@ -1538,14 +1545,16 @@
           "channelId": "UCCvr2b9QxG4EKFp4zycmOIg"
         }
       ],
-      "instagram": []
+      "instagram": [],
+      "tiktok": []
     },
     "onlyfans": {
       "label": "OnlyFans promo",
       "description": "Accounts whose primary purpose is funnelling to OF",
       "defaultOn": false,
       "youtube": [],
-      "instagram": []
+      "instagram": [],
+      "tiktok": []
     },
     "food": {
       "label": "Food",
@@ -1565,7 +1574,8 @@
           "channelId": "UCO0CeUKwLxXN-3Lfol3D_6w"
         }
       ],
-      "instagram": []
+      "instagram": [],
+      "tiktok": []
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T06:40:46.844Z",
+  "updatedAt": "2026-05-03T06:41:51.343Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1518,6 +1518,10 @@
         {
           "handle": "@Hoop_Planet",
           "channelId": "UC1O_36x2N-ngv61Z8ORjbgA"
+        },
+        {
+          "handle": "@SleepyClipsTT",
+          "channelId": "UC2dZ_1u4bPt8TP7oqbIp9VA"
         }
       ],
       "instagram": [

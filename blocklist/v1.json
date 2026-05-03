@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T04:49:27.091Z",
+  "updatedAt": "2026-05-03T06:35:30.628Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1506,6 +1506,10 @@
         {
           "handle": "@ClaraDao",
           "channelId": "UC8B1sNPsg-VSCq6hkZdt9qw"
+        },
+        {
+          "handle": "@Sylara_Frostfang",
+          "channelId": "UCN-DEzOf9ajSfovmSvXk6IQ"
         }
       ],
       "instagram": [

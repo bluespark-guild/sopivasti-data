@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T02:26:44.105Z",
+  "updatedAt": "2026-05-03T02:28:26.414Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1473,6 +1473,14 @@
         {
           "handle": "@BGotWealthy",
           "channelId": "UC16TH_v0scDnMJ_BuwvjFeA"
+        },
+        {
+          "handle": "@ThinkMediaPodcast",
+          "channelId": "UCKegeYEy0lJxpkjWRthaRMw"
+        },
+        {
+          "handle": "@vidIQ",
+          "channelId": "UCZLFu8bHbwtnIgWLg5UtINw"
         }
       ],
       "instagram": [

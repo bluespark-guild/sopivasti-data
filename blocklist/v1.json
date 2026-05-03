@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T02:22:10.225Z",
+  "updatedAt": "2026-05-03T02:26:44.105Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1469,6 +1469,10 @@
         {
           "handle": "@MoreJasminandJames",
           "channelId": "UCV5aEtM2sL4YoZ9zhbJWOtg"
+        },
+        {
+          "handle": "@BGotWealthy",
+          "channelId": "UC16TH_v0scDnMJ_BuwvjFeA"
         }
       ],
       "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T02:36:56.090Z",
+  "updatedAt": "2026-05-03T02:41:01.456Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1482,6 +1482,18 @@
         {
           "handle": "@vidIQ",
           "channelId": "UCZLFu8bHbwtnIgWLg5UtINw"
+        },
+        {
+          "handle": "@markbuildsbrands",
+          "channelId": "UCkRbLkvUX5zuwnKOBwFHOjg"
+        },
+        {
+          "handle": "@dmscales",
+          "channelId": "UC4c_2u6Q3XritxHikL-ZNqg"
+        },
+        {
+          "handle": "@HormoziHighlight",
+          "channelId": "UCrvchO1h6lWZAuGaa1LqX9Q"
         }
       ],
       "instagram": [

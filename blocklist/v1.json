@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T02:14:19.166Z",
+  "updatedAt": "2026-05-03T02:17:30.666Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1461,6 +1461,10 @@
         {
           "handle": "@DanLok",
           "channelId": "UCs_6DXZROU29pLvgQdCx4Ww"
+        },
+        {
+          "handle": "@Impaulsive",
+          "channelId": "UCGeBogGDZ9W3dsGx-mWQGJA"
         }
       ],
       "instagram": [

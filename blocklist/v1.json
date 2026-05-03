@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T02:17:30.666Z",
+  "updatedAt": "2026-05-03T02:19:14.040Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1465,6 +1465,10 @@
         {
           "handle": "@Impaulsive",
           "channelId": "UCGeBogGDZ9W3dsGx-mWQGJA"
+        },
+        {
+          "handle": "@MoreJasminandJames",
+          "channelId": "UCV5aEtM2sL4YoZ9zhbJWOtg"
         }
       ],
       "instagram": [

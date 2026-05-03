@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T02:01:30.244Z",
+  "updatedAt": "2026-05-03T02:14:19.166Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1457,6 +1457,10 @@
         {
           "handle": "@JesserShorts2",
           "channelId": "UCT8em_4jMv_X5gph11BLR6w"
+        },
+        {
+          "handle": "@DanLok",
+          "channelId": "UCs_6DXZROU29pLvgQdCx4Ww"
         }
       ],
       "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T00:57:07.145Z",
+  "updatedAt": "2026-05-03T02:01:30.244Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1453,6 +1453,10 @@
         {
           "handle": "@NorthStarBoys",
           "channelId": "UCCmY_sdad4tGaF1OErDCyJA"
+        },
+        {
+          "handle": "@JesserShorts2",
+          "channelId": "UCT8em_4jMv_X5gph11BLR6w"
         }
       ],
       "instagram": [

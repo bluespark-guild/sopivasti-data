@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T06:42:09.792Z",
+  "updatedAt": "2026-05-03T06:43:31.394Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1526,6 +1526,10 @@
         {
           "handle": "@courtcodeyt",
           "channelId": "UCux9GvSXHatQex91faRA5aA"
+        },
+        {
+          "handle": "@ClipZoneHighOctaneHits",
+          "channelId": "UCwXgxPwky2cyU7iNXeV75LA"
         }
       ],
       "instagram": [

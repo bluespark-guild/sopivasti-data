@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T03:11:41.522Z",
+  "updatedAt": "2026-05-03T04:26:15.235Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1498,6 +1498,10 @@
         {
           "handle": "@MilitaryLogicz",
           "channelId": "UCZmUAUcSQE8LdEZcmVaU2Nw"
+        },
+        {
+          "handle": "@davejeltema3",
+          "channelId": "UCpOWnfbrnVjhdZ0OVgvTFpg"
         }
       ],
       "instagram": [

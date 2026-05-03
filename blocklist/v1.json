@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T06:37:54.115Z",
+  "updatedAt": "2026-05-03T06:40:46.844Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1514,6 +1514,10 @@
         {
           "handle": "@TorontoUnicorn",
           "channelId": "UCdgWh-_cPC5jj5IrdiYarEQ"
+        },
+        {
+          "handle": "@Hoop_Planet",
+          "channelId": "UC1O_36x2N-ngv61Z8ORjbgA"
         }
       ],
       "instagram": [

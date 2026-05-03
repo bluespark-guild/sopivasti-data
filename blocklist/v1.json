@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-02T06:35:59.542Z",
+  "updatedAt": "2026-05-03T00:57:07.145Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1393,6 +1393,66 @@
         {
           "handle": "@hmelkofm",
           "channelId": "UCE8o2AWXA7SXZj7dcTQGZRA"
+        },
+        {
+          "handle": "@stirptv0824",
+          "channelId": "UCtv5lBpPeSUsm9-mvt0Uh0g"
+        },
+        {
+          "handle": "@MrBuckBuckClips",
+          "channelId": "UChtOayRoUHSEGKUHcp3BYLw"
+        },
+        {
+          "handle": "@saraconklinfrozenpennies",
+          "channelId": "UCqz2PHyYFPdiDz8smw7NGcQ"
+        },
+        {
+          "handle": "@NextGenTVIV",
+          "channelId": "UCEpFRZFGKl1SrPEO8nVLORw"
+        },
+        {
+          "handle": "@StephanieSoo",
+          "channelId": "UCo9ZZ04kIhN_8xGxvnjaduQ"
+        },
+        {
+          "handle": "@EdwardSo",
+          "channelId": "UCPK91o0YLEDbuP6Pdk2KpBw"
+        },
+        {
+          "handle": "@ericcouu",
+          "channelId": "UChx7Af2v_H_9BvqbcKvsuuQ"
+        },
+        {
+          "handle": "@Itsseansolo",
+          "channelId": "UC1E4plZ1GGZBJYwmm1glE2A"
+        },
+        {
+          "handle": "@igumdrop",
+          "channelId": "UCGkquZAQRiSoWTrHufGKgeg"
+        },
+        {
+          "handle": "@iGumdropDaily",
+          "channelId": "UCukfp33lSbvrgYFHaiF9Bfw"
+        },
+        {
+          "handle": "@Valkyrae",
+          "channelId": "UCWxlUwW9BgGISaakjGM37aw"
+        },
+        {
+          "handle": "@Natsumiii",
+          "channelId": "UCWv4sf9mN50O0O73yvJZF-A"
+        },
+        {
+          "handle": "@Kaneratan",
+          "channelId": "UCo2VvHgrIK9Dj7xAaW40gBw"
+        },
+        {
+          "handle": "@alex_kha",
+          "channelId": "UCc7-aY9eKcURzHLjphYQquQ"
+        },
+        {
+          "handle": "@NorthStarBoys",
+          "channelId": "UCCmY_sdad4tGaF1OErDCyJA"
         }
       ],
       "instagram": [
@@ -1404,6 +1464,24 @@
         },
         {
           "handle": "jason.nms"
+        },
+        {
+          "handle": "ericcouu"
+        },
+        {
+          "handle": "itsseansolo"
+        },
+        {
+          "handle": "lolnatsumiii"
+        },
+        {
+          "handle": "hasandpiker"
+        },
+        {
+          "handle": "kaneratan"
+        },
+        {
+          "handle": "northstarboys"
         }
       ]
     },

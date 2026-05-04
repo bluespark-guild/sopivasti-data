@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-03T11:37:57.833Z",
+  "updatedAt": "2026-05-04T02:25:10.556Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1538,6 +1538,18 @@
         {
           "handle": "@TheVexEffect",
           "channelId": "UCo1rqELJitYS6eJgWLmJYbg"
+        },
+        {
+          "handle": "@BadFriends",
+          "channelId": "UCRBpynZV0b7ww2XMCfC17qg"
+        },
+        {
+          "handle": "@OllexYT",
+          "channelId": "UCE7o3xApwDmey-warE_hzMg"
+        },
+        {
+          "handle": "@Joeyedits_",
+          "channelId": "UCB3NoRtuZN-24wePrOVYuFQ"
         }
       ],
       "instagram": [

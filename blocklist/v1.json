@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-04T02:36:43.338Z",
+  "updatedAt": "2026-05-04T04:16:49.518Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1562,6 +1562,10 @@
         {
           "handle": "@adaviadavis",
           "channelId": "UCUTdunwL0wtbWutTnbN-bqQ"
+        },
+        {
+          "handle": "@beyond-NBA",
+          "channelId": "UCPGhgqNOGTj1o1qilS6K8mA"
         }
       ],
       "instagram": [

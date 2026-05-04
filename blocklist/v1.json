@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-04T02:29:43.306Z",
+  "updatedAt": "2026-05-04T02:36:43.338Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1554,6 +1554,14 @@
         {
           "handle": "@Brawadis",
           "channelId": "UCvtRTOMP2TqYqu51xNrqAzg"
+        },
+        {
+          "handle": "@adav1a",
+          "channelId": "UCcN9PcsgpFp3ViiM8QP7TCA"
+        },
+        {
+          "handle": "@adaviadavis",
+          "channelId": "UCUTdunwL0wtbWutTnbN-bqQ"
         }
       ],
       "instagram": [

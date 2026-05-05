@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-05T05:16:42.072Z",
+  "updatedAt": "2026-05-05T13:07:53.041Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1570,6 +1570,18 @@
         {
           "handle": "@LostRealityOffic",
           "channelId": "UC-_xMQEVREdux5MD3NsDVFA"
+        },
+        {
+          "handle": "@jack_craig",
+          "channelId": "UCVljMxlPv99oN-zwLNlc7wA"
+        },
+        {
+          "handle": "@TrulySeenOfficial",
+          "channelId": "UCqoHaTOJ_sUWTYVgoMZAzVQ"
+        },
+        {
+          "handle": "@princessameliawu",
+          "channelId": "UCjUUhyQe-buch9me5PXZP6w"
         }
       ],
       "instagram": [

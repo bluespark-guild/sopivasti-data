@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-05T00:46:21.603Z",
+  "updatedAt": "2026-05-05T05:16:42.072Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1566,6 +1566,10 @@
         {
           "handle": "@beyond-NBA",
           "channelId": "UCPGhgqNOGTj1o1qilS6K8mA"
+        },
+        {
+          "handle": "@LostRealityOffic",
+          "channelId": "UC-_xMQEVREdux5MD3NsDVFA"
         }
       ],
       "instagram": [

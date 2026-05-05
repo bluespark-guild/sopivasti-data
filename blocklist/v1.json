@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-04T04:16:49.518Z",
+  "updatedAt": "2026-05-05T00:46:21.603Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1598,6 +1598,9 @@
         },
         {
           "handle": "jasminandjames"
+        },
+        {
+          "handle": "harrysendit"
         }
       ],
       "tiktok": [

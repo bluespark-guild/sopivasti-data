@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-05T13:07:53.041Z",
+  "updatedAt": "2026-05-07T07:51:27.341Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1582,6 +1582,10 @@
         {
           "handle": "@princessameliawu",
           "channelId": "UCjUUhyQe-buch9me5PXZP6w"
+        },
+        {
+          "handle": "@ThinkMediaTV",
+          "channelId": "UCGxjDWAN1KwrkXYVi8CXtjQ"
         }
       ],
       "instagram": [

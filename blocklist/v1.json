@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-07T07:51:27.341Z",
+  "updatedAt": "2026-05-08T11:49:14.470Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1586,6 +1586,10 @@
         {
           "handle": "@ThinkMediaTV",
           "channelId": "UCGxjDWAN1KwrkXYVi8CXtjQ"
+        },
+        {
+          "handle": "@DrDisRespect",
+          "channelId": "UCcJL2ld6kxy_nuV1u7PVQ0g"
         }
       ],
       "instagram": [

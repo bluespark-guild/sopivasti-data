@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:49:10.640Z",
+  "updatedAt": "2026-05-10T05:49:40.379Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1850,6 +1850,10 @@
         {
           "handle": "@HecSpeaks",
           "channelId": "UC-XHmwtULFwQDlec9wjdIwA"
+        },
+        {
+          "handle": "@Jacksons_ai",
+          "channelId": "UCKOTiVw2u_e5LK40-YBTVlQ"
         }
       ],
       "instagram": [

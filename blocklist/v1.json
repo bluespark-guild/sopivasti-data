@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T11:05:35.416Z",
+  "updatedAt": "2026-05-10T11:14:59.019Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1942,6 +1942,14 @@
         {
           "handle": "@TheAndrewSchulz",
           "channelId": "UCLZc32yrTEMxH1ZO-6fKOzA"
+        },
+        {
+          "handle": "@randomshowaz",
+          "channelId": "UCiAMJCCcxHdyKjT0zKBD7Ow"
+        },
+        {
+          "handle": "@ChishaZed",
+          "channelId": "UCSRD7ZKgu4OcdNuwO_tsUkw"
         }
       ],
       "instagram": [
@@ -2202,6 +2210,10 @@
         {
           "handle": "jamesandjasmin",
           "userId": "6965454830602191878"
+        },
+        {
+          "handle": "thejasleensingh",
+          "userId": "6760886800003548166"
         }
       ],
       "twitch": [

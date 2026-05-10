@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T03:37:33.788Z",
+  "updatedAt": "2026-05-10T03:42:50.116Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1602,6 +1602,10 @@
         {
           "handle": "@JinnyttyVods",
           "channelId": "UCV4vgAH9Bk9oaaBwUtFedwg"
+        },
+        {
+          "handle": "@Tectone",
+          "channelId": "UCPnSoX7NkOBcOX0Gfw_yjAw"
         }
       ],
       "instagram": [

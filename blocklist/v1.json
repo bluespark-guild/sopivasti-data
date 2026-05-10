@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T07:06:28.184Z",
+  "updatedAt": "2026-05-10T07:08:38.862Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1886,6 +1886,34 @@
         {
           "handle": "@briddy",
           "channelId": "UCrJFUWdSQqRcH5aQ_CEtsMQ"
+        },
+        {
+          "handle": "@bunnybelledelphine",
+          "channelId": "UCXvKUavCtDOlA8bT1i2tI3w"
+        },
+        {
+          "handle": "@lenatheplug",
+          "channelId": "UCEFuuAUSHlQzHMres7AD38Q"
+        },
+        {
+          "handle": "@bhadbhabie",
+          "channelId": "UC7rVvFP90pl7tAtPsVIhfww"
+        },
+        {
+          "handle": "@skybristreams",
+          "channelId": "UCxhk1PEhUZP0tS8p52h-7kw"
+        },
+        {
+          "handle": "@MiaMalkovaTV",
+          "channelId": "UCEPR0sZKa_ScMoyhemfB7nA"
+        },
+        {
+          "handle": "@alsoamouranth9438",
+          "channelId": "UC1iMlaBbon_5SBeWTHzsE_g"
+        },
+        {
+          "handle": "@plugtalkshow",
+          "channelId": "UCcqoz0WrDztUff7sR_U11bw"
         }
       ],
       "instagram": [
@@ -2299,6 +2327,14 @@
         {
           "handle": "mira",
           "userId": "79294007"
+        },
+        {
+          "handle": "miamalkova",
+          "userId": "216233870"
+        },
+        {
+          "handle": "miakhalifa",
+          "userId": "151145128"
         }
       ]
     },

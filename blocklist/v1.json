@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:51:16.040Z",
+  "updatedAt": "2026-05-10T05:51:49.792Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -2110,6 +2110,9 @@
         },
         {
           "handle": "asmongold"
+        },
+        {
+          "handle": "mattygrov"
         }
       ],
       "tiktok": [

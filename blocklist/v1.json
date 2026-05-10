@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:52:07.372Z",
+  "updatedAt": "2026-05-10T06:06:56.103Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1866,6 +1866,10 @@
         {
           "handle": "@mikeandmatty",
           "channelId": "UCBX_-ls-dXuhFNSWSXcHrTA"
+        },
+        {
+          "handle": "@WineAboutItPodcast",
+          "channelId": "UCotpsO5-apJVUfsiieSb71g"
         }
       ],
       "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-08T11:49:14.470Z",
+  "updatedAt": "2026-05-10T02:12:32.035Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1590,6 +1590,10 @@
         {
           "handle": "@DrDisRespect",
           "channelId": "UCcJL2ld6kxy_nuV1u7PVQ0g"
+        },
+        {
+          "handle": "@InternetVS",
+          "channelId": "UCG7M3ypZe0hBtxpjcoGJ7RA"
         }
       ],
       "instagram": [

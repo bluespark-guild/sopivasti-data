@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:29:05.858Z",
+  "updatedAt": "2026-05-10T05:44:41.775Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1838,6 +1838,10 @@
         {
           "handle": "@KowskiFilms",
           "channelId": "UCy99oZEIJq9Nj7KZHi1hZ9w"
+        },
+        {
+          "handle": "@Moneytalkwithleon",
+          "channelId": "UCUcW21cHj7uk8VOa8WNsEQg"
         }
       ],
       "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T11:14:59.019Z",
+  "updatedAt": "2026-05-10T11:16:16.056Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1950,6 +1950,10 @@
         {
           "handle": "@ChishaZed",
           "channelId": "UCSRD7ZKgu4OcdNuwO_tsUkw"
+        },
+        {
+          "handle": "@ohnepixel",
+          "channelId": "UC3ti8PjJczdDKHSwk7TESkw"
         }
       ],
       "instagram": [
@@ -2375,6 +2379,10 @@
         {
           "handle": "miakhalifa",
           "userId": "151145128"
+        },
+        {
+          "handle": "ohnepixel",
+          "userId": "43683025"
         }
       ]
     },

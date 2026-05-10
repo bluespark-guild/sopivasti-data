@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-10T11:16:16.056Z",
+  "updatedAt": "2026-05-10T13:25:59.374Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -1969,6 +1969,18 @@
     {
       "handle": "@theshabakitchen",
       "channelId": "UCO0CeUKwLxXN-3Lfol3D_6w"
+    },
+    {
+      "handle": "@SteffenMiroExtended",
+      "channelId": "UCp6SQfLshj-4NaykhtAF0sA"
+    },
+    {
+      "handle": "@FabioMorenaa",
+      "channelId": "UCEVk7dabD0zoIUiv1YbXSuA"
+    },
+    {
+      "handle": "@MaxBladeTv",
+      "channelId": "UChcJv_JCjQHXcgjlHpxDIcA"
     }
   ],
   "instagram": [

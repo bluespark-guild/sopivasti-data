@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T07:08:38.862Z",
+  "updatedAt": "2026-05-10T11:05:35.416Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1914,6 +1914,34 @@
         {
           "handle": "@plugtalkshow",
           "channelId": "UCcqoz0WrDztUff7sR_U11bw"
+        },
+        {
+          "handle": "@GamingExpIained",
+          "channelId": "UC8mcv9xnX9Amu2YBuRl4j5A"
+        },
+        {
+          "handle": "@Traphousereacts",
+          "channelId": "UCQuUaydemS90fW6Z6KxsQVg"
+        },
+        {
+          "handle": "@La-Ratita1",
+          "channelId": "UCSEgdTZC4ETLpvmUU-1kbog"
+        },
+        {
+          "handle": "@Chrispg1",
+          "channelId": "UCXy9KvLa5VyndfpX7zsgeAQ"
+        },
+        {
+          "handle": "@joerogan",
+          "channelId": "UCzQUP1qoWDoEbmsQxvdjxgQ"
+        },
+        {
+          "handle": "@OfficialFlagrant",
+          "channelId": "UC5PstSsGrRwj2o6asQpC4Rg"
+        },
+        {
+          "handle": "@TheAndrewSchulz",
+          "channelId": "UCLZc32yrTEMxH1ZO-6fKOzA"
         }
       ],
       "instagram": [

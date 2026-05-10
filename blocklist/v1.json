@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T02:12:32.035Z",
+  "updatedAt": "2026-05-10T03:23:50.643Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1635,6 +1635,36 @@
         {
           "handle": "jamesandjasmin",
           "userId": "6965454830602191878"
+        }
+      ],
+      "twitch": [
+        {
+          "handle": "kaicenat",
+          "userId": "641972806"
+        },
+        {
+          "handle": "jynxzi",
+          "userId": "411377640"
+        },
+        {
+          "handle": "hasanabi",
+          "userId": "207813352"
+        },
+        {
+          "handle": "xqc",
+          "userId": "71092938"
+        },
+        {
+          "handle": "stableronaldo",
+          "userId": "246450563"
+        },
+        {
+          "handle": "jasontheween",
+          "userId": "107117952"
+        },
+        {
+          "handle": "ishowspeed",
+          "userId": "220476955"
         }
       ]
     },

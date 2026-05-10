@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:44:41.775Z",
+  "updatedAt": "2026-05-10T05:47:08.016Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1842,6 +1842,10 @@
         {
           "handle": "@Moneytalkwithleon",
           "channelId": "UCUcW21cHj7uk8VOa8WNsEQg"
+        },
+        {
+          "handle": "@AsmonTV",
+          "channelId": "UCQeRaTukNYft1_6AZPACnog"
         }
       ],
       "instagram": [

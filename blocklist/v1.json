@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:50:00.776Z",
+  "updatedAt": "2026-05-10T05:51:16.040Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1858,6 +1858,10 @@
         {
           "handle": "@TheAdamIvy",
           "channelId": "UCNFEngs9Na5nf9iIlYQDB9Q"
+        },
+        {
+          "handle": "@bridgemindai",
+          "channelId": "UCwaTGE53GLGC3fDClVl_7TA"
         }
       ],
       "instagram": [

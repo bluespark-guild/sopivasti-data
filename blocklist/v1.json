@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T03:23:50.643Z",
+  "updatedAt": "2026-05-10T03:37:33.788Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1594,6 +1594,14 @@
         {
           "handle": "@InternetVS",
           "channelId": "UCG7M3ypZe0hBtxpjcoGJ7RA"
+        },
+        {
+          "handle": "@jinnytty_",
+          "channelId": "UC8fDTDebMOF9lF8nD7b0EZw"
+        },
+        {
+          "handle": "@JinnyttyVods",
+          "channelId": "UCV4vgAH9Bk9oaaBwUtFedwg"
         }
       ],
       "instagram": [
@@ -1665,6 +1673,46 @@
         {
           "handle": "ishowspeed",
           "userId": "220476955"
+        },
+        {
+          "handle": "trainwreckstv",
+          "userId": "71190292"
+        },
+        {
+          "handle": "amouranth",
+          "userId": "125387632"
+        },
+        {
+          "handle": "mizkif",
+          "userId": "94753024"
+        },
+        {
+          "handle": "nickmercs",
+          "userId": "15564828"
+        },
+        {
+          "handle": "adept",
+          "userId": "378782"
+        },
+        {
+          "handle": "tectone",
+          "userId": "27717340"
+        },
+        {
+          "handle": "fandy",
+          "userId": "43028909"
+        },
+        {
+          "handle": "asmongold",
+          "userId": "26261471"
+        },
+        {
+          "handle": "greekgodx",
+          "userId": "15310631"
+        },
+        {
+          "handle": "jinnytty",
+          "userId": "159498717"
         }
       ]
     },

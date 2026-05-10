@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T06:08:04.798Z",
+  "updatedAt": "2026-05-10T06:21:05.315Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1874,6 +1874,14 @@
         {
           "handle": "@extraemily",
           "channelId": "UCN4PUx0xlsaGTNPxgQYPjKA"
+        },
+        {
+          "handle": "@MattLoui",
+          "channelId": "UCIXwKNbv-AMdlaO6bPBBE7A"
+        },
+        {
+          "handle": "@SuperwallHQ",
+          "channelId": "UCWWlrm9Y5ZjYzfi_H0caBhw"
         }
       ],
       "instagram": [

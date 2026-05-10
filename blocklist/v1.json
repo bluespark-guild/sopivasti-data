@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:51:49.792Z",
+  "updatedAt": "2026-05-10T05:52:07.372Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1862,6 +1862,10 @@
         {
           "handle": "@bridgemindai",
           "channelId": "UCwaTGE53GLGC3fDClVl_7TA"
+        },
+        {
+          "handle": "@mikeandmatty",
+          "channelId": "UCBX_-ls-dXuhFNSWSXcHrTA"
         }
       ],
       "instagram": [

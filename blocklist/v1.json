@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T06:21:05.315Z",
+  "updatedAt": "2026-05-10T07:04:51.570Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1882,6 +1882,10 @@
         {
           "handle": "@SuperwallHQ",
           "channelId": "UCWWlrm9Y5ZjYzfi_H0caBhw"
+        },
+        {
+          "handle": "@briddy",
+          "channelId": "UCrJFUWdSQqRcH5aQ_CEtsMQ"
         }
       ],
       "instagram": [
@@ -2133,6 +2137,9 @@
         },
         {
           "handle": "mattygrov"
+        },
+        {
+          "handle": "briddyli"
         }
       ],
       "tiktok": [

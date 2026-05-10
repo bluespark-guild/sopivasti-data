@@ -3,7 +3,7 @@
  * Drain the HQ Komma apply queue.
  *
  * Pulls pending block items from `${HQ_BASE_URL}/api/komma/apply-queue` (bearer auth),
- * runs `add.mjs youtube <category> @<handle>` for each, commits everything in one commit,
+ * runs `add.mjs youtube @<handle>` for each, commits everything in one commit,
  * pushes, then ACKs all consumed items so HQ deletes them from KV.
  *
  * Designed to run on cron (every 15 min) from sopivasti-data. No GitHub PAT needed —
@@ -95,16 +95,16 @@ async function main() {
   const failed = [];
 
   for (const item of items) {
-    if (!item?.handle || !item?.category) {
-      console.log(`  ✗ ${item?.channelId} — missing handle/category, skipping`);
+    if (!item?.handle) {
+      console.log(`  ✗ ${item?.channelId} — missing handle, skipping`);
       skipped.push(item);
       continue;
     }
     const handle = item.handle.startsWith('@') ? item.handle : `@${item.handle}`;
     try {
-      await run('node', ['scripts/add.mjs', 'youtube', item.category, handle]);
+      await run('node', ['scripts/add.mjs', 'youtube', handle]);
       applied.push(item);
-      console.log(`  ✓ ${handle} → ${item.category}`);
+      console.log(`  ✓ ${handle}`);
     } catch (e) {
       failed.push({ item, error: e.message });
       console.error(`  ✗ ${handle} — ${e.message}`);
@@ -124,17 +124,10 @@ async function main() {
   await run('git', ['config', 'user.email', 'noreply@sopivasti.com']);
   await run('git', ['add', 'blocklist/v1.json']);
 
-  const byCategory = applied.reduce((acc, i) => {
-    acc[i.category] = (acc[i.category] || 0) + 1;
-    return acc;
-  }, {});
-  const counts = Object.entries(byCategory)
-    .map(([c, n]) => `${n} ${c}`)
-    .join(', ');
   const lines = applied.map(
-    (i) => `- ${i.handle.startsWith('@') ? i.handle : `@${i.handle}`} → ${i.category}${i.reasoning ? ` (${i.reasoning})` : ''}`,
+    (i) => `- ${i.handle.startsWith('@') ? i.handle : `@${i.handle}`}${i.reasoning ? ` (${i.reasoning})` : ''}`,
   );
-  const msg = `blocklist: batch add ${applied.length} (${counts})\n\n${lines.join('\n')}`;
+  const msg = `blocklist: batch add ${applied.length}\n\n${lines.join('\n')}`;
 
   await run('git', ['commit', '-m', msg]);
   await run('git', ['push']);

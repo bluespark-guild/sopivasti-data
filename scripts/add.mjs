@@ -3,14 +3,13 @@
  * Add a handle to blocklist/v1.json with auto-resolved stable ID.
  *
  * Usage:
- *   node scripts/add.mjs youtube <category> @handle
- *   node scripts/add.mjs instagram <category> username
- *   node scripts/add.mjs tiktok <category> @handle
+ *   node scripts/add.mjs youtube @handle
+ *   node scripts/add.mjs instagram username
+ *   node scripts/add.mjs tiktok @handle
+ *   node scripts/add.mjs twitch login
  *
- * Valid categories are read from blocklist/v1.json at runtime — no hardcoded
- * list to keep in sync. To add a new category, edit the JSON directly (add
- * a key under `categories` with `label`, `description`, `defaultOn`,
- * `youtube`, `instagram`, `tiktok`).
+ * Flat schema — no categories. Every entry the curator pushes is "banned,
+ * full stop." Users see one master toggle, on or off.
  *
  * For YouTube: scrapes the channel page HTML to extract `UCxxxxxxxxxxxxxxxxxxxxxx`
  * (immutable channel ID). Survives handle renames.
@@ -23,14 +22,18 @@
  * For TikTok: parses the public profile HTML for the rehydration blob's
  * numeric user id. Also prone to anti-bot blocks; falls back to handle-only.
  *
+ * For Twitch: hits gql.twitch.tv with the public web client-id when
+ * scripts/lib/twitch.mjs is present; otherwise persists handle-only.
+ *
  * Bumps `updatedAt`. Stages the change. Commit + push manually:
- *   git commit -m "blocklist: add @handle (category — reason)"
+ *   git commit -m "blocklist: add @handle (reason)"
  *   git push
  */
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
+import { existsSync } from 'node:fs';
 import { resolveYouTubeChannel } from './lib/yt.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -39,17 +42,14 @@ const BLOCKLIST_PATH = resolve(REPO_ROOT, 'blocklist', 'v1.json');
 
 const UA =
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
-// UA still used by Instagram resolver below; YouTube path uses lib/yt.mjs.
 
-function usage(msg, validCategories = null) {
+function usage(msg) {
   if (msg) console.error(`Error: ${msg}\n`);
   console.error('Usage:');
-  console.error('  node scripts/add.mjs youtube <category> @handle');
-  console.error('  node scripts/add.mjs instagram <category> username');
-  console.error('  node scripts/add.mjs tiktok <category> @handle');
-  if (validCategories) {
-    console.error(`\nValid categories: ${validCategories.join(', ')}`);
-  }
+  console.error('  node scripts/add.mjs youtube @handle');
+  console.error('  node scripts/add.mjs instagram username');
+  console.error('  node scripts/add.mjs tiktok @handle');
+  console.error('  node scripts/add.mjs twitch login');
   process.exit(1);
 }
 
@@ -63,10 +63,6 @@ async function resolveYouTubeChannelId(handle) {
 }
 
 async function resolveTikTokUserId(username) {
-  // Public profile HTML carries the rehydration JSON blob. The id is buried
-  // under user.uniqueId / user.id. TikTok blocks aggressively — if the
-  // response isn't HTML or the blob is missing, return null and let the
-  // caller persist handle-only.
   const url = `https://www.tiktok.com/@${encodeURIComponent(username)}`;
   try {
     const res = await fetch(url, {
@@ -119,8 +115,6 @@ function findTikTokId(obj, expectedUniqueId, depth = 0) {
 }
 
 async function resolveInstagramUserId(username) {
-  // Public web_profile_info endpoint. Requires X-IG-App-ID header.
-  // 936619743392459 is the long-standing public web app ID.
   const url = `https://i.instagram.com/api/v1/users/web_profile_info/?username=${encodeURIComponent(username)}`;
   const res = await fetch(url, {
     headers: {
@@ -146,31 +140,54 @@ async function resolveInstagramUserId(username) {
   }
 }
 
+async function resolveTwitchEntry(login) {
+  const libPath = resolve(__dirname, 'lib', 'twitch.mjs');
+  if (!existsSync(libPath)) {
+    return { handle: login };
+  }
+  try {
+    const mod = await import('./lib/twitch.mjs');
+    const result = await mod.resolveTwitchChannel(login);
+    if (result?.error) {
+      console.warn(`  ⚠ ${result.error}`);
+      return { handle: login };
+    }
+    return { handle: result.login.toLowerCase(), userId: result.userId };
+  } catch (e) {
+    console.warn(`  ⚠ twitch resolver error: ${(e && e.message) || e}`);
+    return { handle: login };
+  }
+}
+
 async function main() {
-  const [, , platform, category, rawHandle] = process.argv;
-  if (!platform || !category || !rawHandle) usage('missing arguments');
-  if (platform !== 'youtube' && platform !== 'instagram' && platform !== 'tiktok') {
-    usage(`platform must be 'youtube', 'instagram', or 'tiktok', got '${platform}'`);
+  const [, , platform, rawHandle] = process.argv;
+  if (!platform || !rawHandle) usage('missing arguments');
+  if (
+    platform !== 'youtube' &&
+    platform !== 'instagram' &&
+    platform !== 'tiktok' &&
+    platform !== 'twitch'
+  ) {
+    usage(`platform must be 'youtube', 'instagram', 'tiktok', or 'twitch', got '${platform}'`);
   }
 
   const blocklist = JSON.parse(await readFile(BLOCKLIST_PATH, 'utf8'));
-  const validCategories = Object.keys(blocklist.categories);
-  if (!validCategories.includes(category)) {
-    usage(`unknown category '${category}'`, validCategories);
-  }
-  const cat = blocklist.categories[category];
+  if (!Array.isArray(blocklist.youtube)) blocklist.youtube = [];
+  if (!Array.isArray(blocklist.instagram)) blocklist.instagram = [];
+  if (!Array.isArray(blocklist.tiktok)) blocklist.tiktok = [];
+  if (!Array.isArray(blocklist.twitch)) blocklist.twitch = [];
 
   let entry;
   if (platform === 'youtube') {
     const handle = rawHandle.startsWith('@') ? rawHandle : `@${rawHandle}`;
-    if (cat.youtube.some((e) => entryHandle(e).toLowerCase() === handle.toLowerCase())) {
-      console.log(`  · ${handle} already in ${category}/youtube — skipping`);
+    if (blocklist.youtube.some((e) => entryHandle(e).toLowerCase() === handle.toLowerCase())) {
+      console.log(`  · ${handle} already in youtube — skipping`);
       return;
     }
     console.log(`Resolving channel ID for ${handle}…`);
     const channelId = await resolveYouTubeChannelId(handle);
     entry = channelId ? { handle, channelId } : { handle };
-    cat.youtube.push(entry);
+    blocklist.youtube.push(entry);
     console.log(
       channelId
         ? `  ✓ added ${handle} → ${channelId}`
@@ -178,35 +195,47 @@ async function main() {
     );
   } else if (platform === 'instagram') {
     const username = rawHandle.replace(/^@/, '');
-    if (cat.instagram.some((e) => entryHandle(e).toLowerCase() === username.toLowerCase())) {
-      console.log(`  · ${username} already in ${category}/instagram — skipping`);
+    if (blocklist.instagram.some((e) => entryHandle(e).toLowerCase() === username.toLowerCase())) {
+      console.log(`  · ${username} already in instagram — skipping`);
       return;
     }
     console.log(`Resolving user ID for ${username}…`);
     const userId = await resolveInstagramUserId(username);
     entry = userId ? { handle: username, userId } : { handle: username };
-    cat.instagram.push(entry);
+    blocklist.instagram.push(entry);
     console.log(
       userId
         ? `  ✓ added ${username} → ${userId}`
         : `  ✓ added ${username} (handle only — ID lookup failed)`,
     );
-  } else {
-    // tiktok
-    if (!Array.isArray(cat.tiktok)) cat.tiktok = [];
+  } else if (platform === 'tiktok') {
     const username = rawHandle.replace(/^@/, '');
-    if (cat.tiktok.some((e) => entryHandle(e).toLowerCase() === username.toLowerCase())) {
-      console.log(`  · @${username} already in ${category}/tiktok — skipping`);
+    if (blocklist.tiktok.some((e) => entryHandle(e).toLowerCase() === username.toLowerCase())) {
+      console.log(`  · @${username} already in tiktok — skipping`);
       return;
     }
     console.log(`Resolving user ID for @${username}…`);
     const userId = await resolveTikTokUserId(username);
     entry = userId ? { handle: username, userId } : { handle: username };
-    cat.tiktok.push(entry);
+    blocklist.tiktok.push(entry);
     console.log(
       userId
         ? `  ✓ added @${username} → ${userId}`
         : `  ✓ added @${username} (handle only — ID lookup failed)`,
+    );
+  } else {
+    const login = rawHandle.replace(/^@/, '').toLowerCase();
+    if (blocklist.twitch.some((e) => entryHandle(e).toLowerCase() === login)) {
+      console.log(`  · ${login} already in twitch — skipping`);
+      return;
+    }
+    console.log(`Resolving user ID for ${login}…`);
+    entry = await resolveTwitchEntry(login);
+    blocklist.twitch.push(entry);
+    console.log(
+      entry.userId
+        ? `  ✓ added ${entry.handle} → ${entry.userId}`
+        : `  ✓ added ${login} (handle only — ID lookup failed)`,
     );
   }
 
@@ -215,7 +244,7 @@ async function main() {
 
   console.log(`\nStaged. Commit + push:`);
   console.log(`  git add blocklist/v1.json`);
-  console.log(`  git commit -m "blocklist: add ${rawHandle} (${category} — <reason>)"`);
+  console.log(`  git commit -m "blocklist: add ${rawHandle} (<reason>)"`);
   console.log(`  git push`);
 }
 

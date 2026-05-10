@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:28:28.340Z",
+  "updatedAt": "2026-05-10T05:29:05.858Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1834,6 +1834,10 @@
         {
           "handle": "@SMii7Y",
           "channelId": "UCzXwjTI6c6mVn6oui_p6oiw"
+        },
+        {
+          "handle": "@KowskiFilms",
+          "channelId": "UCy99oZEIJq9Nj7KZHi1hZ9w"
         }
       ],
       "instagram": [

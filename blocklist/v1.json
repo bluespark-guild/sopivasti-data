@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T03:59:24.477Z",
+  "updatedAt": "2026-05-10T05:28:28.340Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1830,6 +1830,10 @@
         },
         {
           "handle": "@asmongold"
+        },
+        {
+          "handle": "@SMii7Y",
+          "channelId": "UCzXwjTI6c6mVn6oui_p6oiw"
         }
       ],
       "instagram": [

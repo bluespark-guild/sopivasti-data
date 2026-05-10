@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T07:04:51.570Z",
+  "updatedAt": "2026-05-10T07:06:28.184Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -2255,6 +2255,50 @@
         {
           "handle": "chrisnxtdoor",
           "userId": "120977175"
+        },
+        {
+          "handle": "alinity",
+          "userId": "38718052"
+        },
+        {
+          "handle": "indiefoxx",
+          "userId": "1003343277"
+        },
+        {
+          "handle": "morgpie",
+          "userId": "591995115"
+        },
+        {
+          "handle": "quqco",
+          "userId": "107297099"
+        },
+        {
+          "handle": "asianbunnyx",
+          "userId": "503369631"
+        },
+        {
+          "handle": "faith",
+          "userId": "160538649"
+        },
+        {
+          "handle": "xoaeriel",
+          "userId": "492779169"
+        },
+        {
+          "handle": "thenicolet",
+          "userId": "197406569"
+        },
+        {
+          "handle": "emjayplayss",
+          "userId": "762184500"
+        },
+        {
+          "handle": "notaestheticallyhannah",
+          "userId": "592594059"
+        },
+        {
+          "handle": "mira",
+          "userId": "79294007"
         }
       ]
     },

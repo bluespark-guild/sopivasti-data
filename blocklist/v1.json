@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 2,
-  "updatedAt": "2026-05-10T05:47:08.016Z",
+  "updatedAt": "2026-05-10T05:49:10.640Z",
   "categories": {
     "scam": {
       "label": "Scams",
@@ -1846,6 +1846,10 @@
         {
           "handle": "@AsmonTV",
           "channelId": "UCQeRaTukNYft1_6AZPACnog"
+        },
+        {
+          "handle": "@HecSpeaks",
+          "channelId": "UC-XHmwtULFwQDlec9wjdIwA"
         }
       ],
       "instagram": [

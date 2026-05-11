@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-11T05:24:31.002Z",
+  "updatedAt": "2026-05-11T05:24:56.453Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -1985,6 +1985,10 @@
     {
       "handle": "@ludwig",
       "channelId": "UCrPseYLGpNygVi34QpGNqpA"
+    },
+    {
+      "handle": "@beansranking",
+      "channelId": "UCE_1IHKq7rSpkFx907Gcylg"
     }
   ],
   "instagram": [

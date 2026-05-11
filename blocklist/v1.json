@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-11T05:24:56.453Z",
+  "updatedAt": "2026-05-11T08:58:47.175Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2256,6 +2256,9 @@
     {
       "handle": "thejasleensingh",
       "userId": "6760886800003548166"
+    },
+    {
+      "handle": "lewisleighh"
     }
   ],
   "twitch": [

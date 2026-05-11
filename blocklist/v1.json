@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-11T08:59:19.081Z",
+  "updatedAt": "2026-05-11T23:52:56.573Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -1989,6 +1989,10 @@
     {
       "handle": "@beansranking",
       "channelId": "UCE_1IHKq7rSpkFx907Gcylg"
+    },
+    {
+      "handle": "@ChloeVSHistory",
+      "channelId": "UCZB1r1In9RfE7tpVrYgcjLQ"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-10T13:25:59.374Z",
+  "updatedAt": "2026-05-11T01:46:20.561Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2235,6 +2235,9 @@
     },
     {
       "handle": "briddyli"
+    },
+    {
+      "handle": "itsyouralial"
     }
   ],
   "tiktok": [

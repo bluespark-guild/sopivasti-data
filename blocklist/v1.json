@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T02:20:30.720Z",
+  "updatedAt": "2026-05-12T02:27:28.265Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2053,6 +2053,10 @@
     {
       "handle": "@Ryanhdlombard",
       "channelId": "UC68zG933W7D9V9H9TLXBPZQ"
+    },
+    {
+      "handle": "@JasonTheWeenCIips",
+      "channelId": "UClK4S3kGZN8YTiWA1MRaH0g"
     }
   ],
   "instagram": [

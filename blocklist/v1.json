@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:49:18.987Z",
+  "updatedAt": "2026-05-12T08:49:40.345Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2097,6 +2097,10 @@
     {
       "handle": "@KyleCookWDS",
       "channelId": "UCqj0nJDbz27eMHfhzUkwDbA"
+    },
+    {
+      "handle": "@foxsports",
+      "channelId": "UCwNqHDsnBCKT-olwJwIFyfg"
     }
   ],
   "instagram": [

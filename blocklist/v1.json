@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T02:00:47.034Z",
+  "updatedAt": "2026-05-12T02:04:42.694Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2013,6 +2013,10 @@
     {
       "handle": "@sporthighlights1492",
       "channelId": "UCNA5ZpxOrTT97G5IgnUyDPQ"
+    },
+    {
+      "handle": "@ProjectMeliora",
+      "channelId": "UCnrS9DYvtjj9njieu8bYY1Q"
     }
   ],
   "instagram": [

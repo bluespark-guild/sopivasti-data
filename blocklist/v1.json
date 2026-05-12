@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T01:54:47.638Z",
+  "updatedAt": "2026-05-12T01:55:57.473Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2001,6 +2001,10 @@
     {
       "handle": "@ohnepixelraw",
       "channelId": "UCWX7tzz1JJVc2Usx0BRn1Cg"
+    },
+    {
+      "handle": "@issa-sport",
+      "channelId": "UCwW5qE4_XovtIr2jqjYt22g"
     }
   ],
   "instagram": [

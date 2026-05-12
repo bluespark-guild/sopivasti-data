@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T02:27:28.265Z",
+  "updatedAt": "2026-05-12T03:28:24.819Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2057,6 +2057,10 @@
     {
       "handle": "@JasonTheWeenCIips",
       "channelId": "UClK4S3kGZN8YTiWA1MRaH0g"
+    },
+    {
+      "handle": "@TightKnights",
+      "channelId": "UC3Z0RUTsRGn-SvHaiFwUySA"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:50:51.721Z",
+  "updatedAt": "2026-05-12T08:52:04.548Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2109,6 +2109,10 @@
     {
       "handle": "@wizkaliefer",
       "channelId": "UCYaj6BF7zPgBpBNNy0RDsbA"
+    },
+    {
+      "handle": "@Eg0val",
+      "channelId": "UCQbnvKkRRwhhcwfyJh--ATg"
     }
   ],
   "instagram": [

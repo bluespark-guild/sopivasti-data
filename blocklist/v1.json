@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:50:28.674Z",
+  "updatedAt": "2026-05-12T08:50:51.721Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2105,6 +2105,10 @@
     {
       "handle": "@JoBloMovieClips",
       "channelId": "UC6LDwTYRfjQwkakw5R95OyA"
+    },
+    {
+      "handle": "@wizkaliefer",
+      "channelId": "UCYaj6BF7zPgBpBNNy0RDsbA"
     }
   ],
   "instagram": [

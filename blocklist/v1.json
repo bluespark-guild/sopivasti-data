@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T02:08:05.409Z",
+  "updatedAt": "2026-05-12T02:10:32.420Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2037,6 +2037,10 @@
     {
       "handle": "@australiancommunitymedia",
       "channelId": "UCKSHk9fZK-vVdzSzPzriTdw"
+    },
+    {
+      "handle": "@Denver7",
+      "channelId": "UC-2MJlKSq9_pYk5-bdvMhnw"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:39:14.612Z",
+  "updatedAt": "2026-05-12T08:43:27.263Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2069,6 +2069,10 @@
     {
       "handle": "@fuslie",
       "channelId": "UCujyjxsq5FZNVnQro51zKSQ"
+    },
+    {
+      "handle": "@retropsyche",
+      "channelId": "UCiGElZmjgVAgpFFDjcMcsrg"
     }
   ],
   "instagram": [

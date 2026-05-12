@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T12:50:52.000Z",
+  "updatedAt": "2026-05-12T13:19:05.479Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2161,6 +2161,10 @@
     {
       "handle": "@boogieheadmusic",
       "channelId": "UCUpD-85yWbQDXSxKD-E9XnA"
+    },
+    {
+      "handle": "@HolkCSGO",
+      "channelId": "UC2RvNLZXu3L9rPtsiVyr8IA"
     }
   ],
   "instagram": [

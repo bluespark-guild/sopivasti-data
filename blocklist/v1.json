@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T09:15:45.595Z",
+  "updatedAt": "2026-05-12T09:39:07.411Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2141,6 +2141,10 @@
     {
       "handle": "@FrenchieFries",
       "channelId": "UCZR1vQtTcy9qCB9zSfsA5Mg"
+    },
+    {
+      "handle": "@pianoandchill1",
+      "channelId": "UCiT0VWD-EhQma15b7stM5MQ"
     }
   ],
   "instagram": [

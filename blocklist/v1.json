@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T12:32:13.125Z",
+  "updatedAt": "2026-05-12T12:50:52.000Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2157,6 +2157,10 @@
     {
       "handle": "@JennyHoyos",
       "channelId": "UC6YjT1TJaANveVGQ4vl1CIg"
+    },
+    {
+      "handle": "@boogieheadmusic",
+      "channelId": "UCUpD-85yWbQDXSxKD-E9XnA"
     }
   ],
   "instagram": [

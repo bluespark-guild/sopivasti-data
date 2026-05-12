@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:49:40.345Z",
+  "updatedAt": "2026-05-12T08:50:28.674Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2101,6 +2101,10 @@
     {
       "handle": "@foxsports",
       "channelId": "UCwNqHDsnBCKT-olwJwIFyfg"
+    },
+    {
+      "handle": "@JoBloMovieClips",
+      "channelId": "UC6LDwTYRfjQwkakw5R95OyA"
     }
   ],
   "instagram": [

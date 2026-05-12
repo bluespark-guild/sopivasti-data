@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T02:04:42.694Z",
+  "updatedAt": "2026-05-12T02:05:53.052Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2017,6 +2017,18 @@
     {
       "handle": "@ProjectMeliora",
       "channelId": "UCnrS9DYvtjj9njieu8bYY1Q"
+    },
+    {
+      "handle": "@backrimbasketball",
+      "channelId": "UCQMvKZTcOsG4LkqzifM4pnQ"
+    },
+    {
+      "handle": "@PitlessBallClips",
+      "channelId": "UCIfAuzQxNlKVnmfWhiE-Zdw"
+    },
+    {
+      "handle": "@drhighlight",
+      "channelId": "UCq6TkprVZzPcKPRFFPEOaFQ"
     }
   ],
   "instagram": [

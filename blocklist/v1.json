@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:48:56.334Z",
+  "updatedAt": "2026-05-12T08:49:18.987Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2093,6 +2093,10 @@
     {
       "handle": "@DailyRoz1",
       "channelId": "UCiKmWjasKIDsVTS8weg5gug"
+    },
+    {
+      "handle": "@KyleCookWDS",
+      "channelId": "UCqj0nJDbz27eMHfhzUkwDbA"
     }
   ],
   "instagram": [

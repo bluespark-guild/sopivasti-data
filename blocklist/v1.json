@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T09:03:18.497Z",
+  "updatedAt": "2026-05-12T09:03:55.418Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2133,6 +2133,10 @@
     {
       "handle": "@tonystank77",
       "channelId": "UC4lyANuqLQr5ihlz8mI7t8g"
+    },
+    {
+      "handle": "@lambsauceV1",
+      "channelId": "UCoK5xC4_lxQbfJpAEKM774A"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T02:10:32.420Z",
+  "updatedAt": "2026-05-12T02:20:30.720Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2041,6 +2041,18 @@
     {
       "handle": "@Denver7",
       "channelId": "UC-2MJlKSq9_pYk5-bdvMhnw"
+    },
+    {
+      "handle": "@MylanVAL",
+      "channelId": "UCZC0OD6PACmz8kDOlhWfaCA"
+    },
+    {
+      "handle": "@louisgantus",
+      "channelId": "UCMpVQVKYRb_xXnevxQjYepQ"
+    },
+    {
+      "handle": "@Ryanhdlombard",
+      "channelId": "UC68zG933W7D9V9H9TLXBPZQ"
     }
   ],
   "instagram": [
@@ -2304,6 +2316,9 @@
     },
     {
       "handle": "officialjadenwilliams"
+    },
+    {
+      "handle": "ryanhdlombard"
     }
   ],
   "tiktok": [

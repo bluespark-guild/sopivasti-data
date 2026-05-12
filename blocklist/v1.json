@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T01:52:59.656Z",
+  "updatedAt": "2026-05-12T01:54:47.638Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -1997,6 +1997,10 @@
     {
       "handle": "@Officialjadenwilliams",
       "channelId": "UC78mJyZPMa_OG08KLHjhODw"
+    },
+    {
+      "handle": "@ohnepixelraw",
+      "channelId": "UCWX7tzz1JJVc2Usx0BRn1Cg"
     }
   ],
   "instagram": [

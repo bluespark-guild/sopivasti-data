@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:48:34.980Z",
+  "updatedAt": "2026-05-12T08:48:56.334Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2089,6 +2089,10 @@
     {
       "handle": "@GothamChess",
       "channelId": "UCQHX6ViZmPsWiYSFAyS0a3Q"
+    },
+    {
+      "handle": "@DailyRoz1",
+      "channelId": "UCiKmWjasKIDsVTS8weg5gug"
     }
   ],
   "instagram": [

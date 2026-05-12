@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:44:06.802Z",
+  "updatedAt": "2026-05-12T08:45:45.720Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2077,6 +2077,10 @@
     {
       "handle": "@CL1PED69420",
       "channelId": "UCbS3bHp78P0LenbGOdPGKIQ"
+    },
+    {
+      "handle": "@andreabotez",
+      "channelId": "UC1jWs6L3aLO1korDkIg3Lqw"
     }
   ],
   "instagram": [

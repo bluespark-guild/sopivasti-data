@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T02:05:53.052Z",
+  "updatedAt": "2026-05-12T02:06:21.312Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2029,6 +2029,10 @@
     {
       "handle": "@drhighlight",
       "channelId": "UCq6TkprVZzPcKPRFFPEOaFQ"
+    },
+    {
+      "handle": "@gags",
+      "channelId": "UCpsSadsgX_Qk9i6i_bJoUwQ"
     }
   ],
   "instagram": [

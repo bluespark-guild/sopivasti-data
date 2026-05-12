@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T03:28:24.819Z",
+  "updatedAt": "2026-05-12T08:39:14.612Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2061,6 +2061,14 @@
     {
       "handle": "@TightKnights",
       "channelId": "UC3Z0RUTsRGn-SvHaiFwUySA"
+    },
+    {
+      "handle": "@FryingPanLIVEE",
+      "channelId": "UCJKCD3sbyZLAv08iUkxQCXg"
+    },
+    {
+      "handle": "@fuslie",
+      "channelId": "UCujyjxsq5FZNVnQro51zKSQ"
     }
   ],
   "instagram": [

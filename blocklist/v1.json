@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:43:27.263Z",
+  "updatedAt": "2026-05-12T08:44:06.802Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2073,6 +2073,10 @@
     {
       "handle": "@retropsyche",
       "channelId": "UCiGElZmjgVAgpFFDjcMcsrg"
+    },
+    {
+      "handle": "@CL1PED69420",
+      "channelId": "UCbS3bHp78P0LenbGOdPGKIQ"
     }
   ],
   "instagram": [

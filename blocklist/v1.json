@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:47:37.208Z",
+  "updatedAt": "2026-05-12T08:48:34.980Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2085,6 +2085,10 @@
     {
       "handle": "@andreabotezmusic",
       "channelId": "UCbFu27JAJRQR1VW0xDMxs-A"
+    },
+    {
+      "handle": "@GothamChess",
+      "channelId": "UCQHX6ViZmPsWiYSFAyS0a3Q"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T09:39:07.411Z",
+  "updatedAt": "2026-05-12T09:44:09.061Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2145,6 +2145,10 @@
     {
       "handle": "@pianoandchill1",
       "channelId": "UCiT0VWD-EhQma15b7stM5MQ"
+    },
+    {
+      "handle": "@CriticPicks",
+      "channelId": "UCxwQGJztPxV3jqqxp8Cv43g"
     }
   ],
   "instagram": [

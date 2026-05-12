@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:46:09.050Z",
+  "updatedAt": "2026-05-12T08:47:37.208Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2351,6 +2351,9 @@
     },
     {
       "handle": "ryanhdlombard"
+    },
+    {
+      "handle": "itsandreabotez"
     }
   ],
   "tiktok": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:53:36.220Z",
+  "updatedAt": "2026-05-12T09:03:18.497Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2121,6 +2121,18 @@
     {
       "handle": "@JJ_Kaiser",
       "channelId": "UC_omqQ1U6JqeFfNS_gx2AwQ"
+    },
+    {
+      "handle": "@Tasty_UK",
+      "channelId": "UCm_k-dtiNNeGQq1NrJKdZGA"
+    },
+    {
+      "handle": "@buzzfeedUK",
+      "channelId": "UCAqEoRfgMCtErK0qsL1cCtw"
+    },
+    {
+      "handle": "@tonystank77",
+      "channelId": "UC4lyANuqLQr5ihlz8mI7t8g"
     }
   ],
   "instagram": [

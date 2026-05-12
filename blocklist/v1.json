@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T08:53:13.143Z",
+  "updatedAt": "2026-05-12T08:53:36.220Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2117,6 +2117,10 @@
     {
       "handle": "@HoopLists",
       "channelId": "UCZBaWSQCEd3mbFHggUim0aA"
+    },
+    {
+      "handle": "@JJ_Kaiser",
+      "channelId": "UC_omqQ1U6JqeFfNS_gx2AwQ"
     }
   ],
   "instagram": [

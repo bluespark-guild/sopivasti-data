@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-12T13:19:05.479Z",
+  "updatedAt": "2026-05-13T02:48:40.158Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2165,6 +2165,22 @@
     {
       "handle": "@HolkCSGO",
       "channelId": "UC2RvNLZXu3L9rPtsiVyr8IA"
+    },
+    {
+      "handle": "@PoetikFlakko",
+      "channelId": "UCtSfyk_0ooF1xHcBH5S5YfA"
+    },
+    {
+      "handle": "@iilluminaughtii",
+      "channelId": "UCpDmn2FfVYdPIDwRTcf5-OA"
+    },
+    {
+      "handle": "@ColbyFultonDrums",
+      "channelId": "UC0XfWFnOut0gH3WjmDiNbAQ"
+    },
+    {
+      "handle": "@LEVCHANNEL",
+      "channelId": "UCiFvJHlhGHgHufH8Qxt0m0w"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-13T02:48:40.158Z",
+  "updatedAt": "2026-05-13T02:56:57.552Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2181,6 +2181,18 @@
     {
       "handle": "@LEVCHANNEL",
       "channelId": "UCiFvJHlhGHgHufH8Qxt0m0w"
+    },
+    {
+      "handle": "@RKHMedia_",
+      "channelId": "UCYB8cOzzg6zijuq6luCrYyQ"
+    },
+    {
+      "handle": "@joxys",
+      "channelId": "UC3DlDcaefUYr-1skxaiLxVw"
+    },
+    {
+      "handle": "@jooshica6178",
+      "channelId": "UCGB2bzMjIZhnaSDUDy2LEZA"
     }
   ],
   "instagram": [
@@ -2466,6 +2478,9 @@
     },
     {
       "handle": "officialjadenwilliams"
+    },
+    {
+      "handle": "jooshica"
     }
   ],
   "twitch": [

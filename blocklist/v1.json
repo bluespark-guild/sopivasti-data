@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-13T03:02:10.095Z",
+  "updatedAt": "2026-05-13T04:02:42.421Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2201,6 +2201,30 @@
     {
       "handle": "@jeffreyxreacts",
       "channelId": "UC2qKQjnZI_tnG7XemGBOHxQ"
+    },
+    {
+      "handle": "@Mappelz",
+      "channelId": "UCdUl_bahs2CptEdW0us2TRA"
+    },
+    {
+      "handle": "@couplesreact",
+      "channelId": "UCC52z5eYjOLO_GfUWw-wePQ"
+    },
+    {
+      "handle": "@UrAvgConsumer",
+      "channelId": "UC9fSZHEh6XsRpX-xJc6lT3A"
+    },
+    {
+      "handle": "@MatthewMoniz",
+      "channelId": "UCVlMUh4WsDQvOxCJJXmWwdw"
+    },
+    {
+      "handle": "@Techninjaspeaks",
+      "channelId": "UC25TmsJidl31Hbf5PVckK8Q"
+    },
+    {
+      "handle": "@btodtv",
+      "channelId": "UCDJZPusVYgqWwP67JnZviRw"
     }
   ],
   "instagram": [
@@ -2495,6 +2519,10 @@
     },
     {
       "handle": "jeffreyxreacts"
+    },
+    {
+      "handle": "kimjeffreyx",
+      "userId": "7224804373394113543"
     }
   ],
   "twitch": [

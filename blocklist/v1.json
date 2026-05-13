@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-13T02:56:57.552Z",
+  "updatedAt": "2026-05-13T03:02:10.095Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2193,6 +2193,14 @@
     {
       "handle": "@jooshica6178",
       "channelId": "UCGB2bzMjIZhnaSDUDy2LEZA"
+    },
+    {
+      "handle": "@FrankoRblx",
+      "channelId": "UC112srzjqyGHozyx3ASdg-g"
+    },
+    {
+      "handle": "@jeffreyxreacts",
+      "channelId": "UC2qKQjnZI_tnG7XemGBOHxQ"
     }
   ],
   "instagram": [
@@ -2462,6 +2470,9 @@
     },
     {
       "handle": "itsandreabotez"
+    },
+    {
+      "handle": "kimjeffreyx"
     }
   ],
   "tiktok": [
@@ -2481,6 +2492,9 @@
     },
     {
       "handle": "jooshica"
+    },
+    {
+      "handle": "jeffreyxreacts"
     }
   ],
   "twitch": [

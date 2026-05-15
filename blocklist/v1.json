@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-15T06:31:23.061Z",
+  "updatedAt": "2026-05-15T08:43:47.827Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2297,6 +2297,34 @@
     {
       "handle": "@davidbondtravels",
       "channelId": "UCyKApv3PvaslEzHR9rwK4_w"
+    },
+    {
+      "handle": "@MoreMozi",
+      "channelId": "UCrvchO1h6lWZAuGaa1LqX9Q"
+    },
+    {
+      "handle": "@DrakeOfficial",
+      "channelId": "UCByOQJjav0CUDwxCk-jVNRQ"
+    },
+    {
+      "handle": "@MetaShiftlol",
+      "channelId": "UCpSfk6IFtsvXgmWB-di4_tw"
+    },
+    {
+      "handle": "@victorgoesvroom",
+      "channelId": "UCD9CxiobfqcqnzoXV09Cu9w"
+    },
+    {
+      "handle": "@Post2k69",
+      "channelId": "UCz4Ah78IA4cR1zTkjZecV1g"
+    },
+    {
+      "handle": "@NBArtv",
+      "channelId": "UCL8-sBFP7ppft9eg_jGomEg"
+    },
+    {
+      "handle": "@TheGoodRant",
+      "channelId": "UCeDUvtvBm80nNVHrI1kLDyQ"
     }
   ],
   "instagram": [

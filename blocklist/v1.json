@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-15T08:43:47.827Z",
+  "updatedAt": "2026-05-15T09:47:04.575Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2325,6 +2325,18 @@
     {
       "handle": "@TheGoodRant",
       "channelId": "UCeDUvtvBm80nNVHrI1kLDyQ"
+    },
+    {
+      "handle": "@cracksjr30",
+      "channelId": "UCScgm0ZOHpF-GMRWqKrlMWg"
+    },
+    {
+      "handle": "@nandeska3962",
+      "channelId": "UCOfhw81e26tk3_OgYuyEDiw"
+    },
+    {
+      "handle": "@GDsHighlights",
+      "channelId": "UCd_EkHbEutirFl_XSrg95kA"
     }
   ],
   "instagram": [

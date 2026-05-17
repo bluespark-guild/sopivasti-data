@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-17T00:31:03.371Z",
+  "updatedAt": "2026-05-17T09:01:40.624Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2337,6 +2337,18 @@
     {
       "handle": "@GDsHighlights",
       "channelId": "UCd_EkHbEutirFl_XSrg95kA"
+    },
+    {
+      "handle": "@Skillvora-b9s",
+      "channelId": "UCK4aXjk1PzCHTpaLu4Ln0Uw"
+    },
+    {
+      "handle": "@creatorrant",
+      "channelId": "UCrZT1VVNKPp4r_YYh7vdYlA"
+    },
+    {
+      "handle": "@MeditationalState",
+      "channelId": "UCakcbmpdEhEYNcM0WBmYtJQ"
     }
   ],
   "instagram": [

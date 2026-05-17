@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-17T00:30:25.800Z",
+  "updatedAt": "2026-05-17T00:31:03.371Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2612,6 +2612,9 @@
     },
     {
       "handle": "janustiu"
+    },
+    {
+      "handle": "audreycaprianni"
     }
   ],
   "tiktok": [

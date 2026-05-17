@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-15T09:47:04.575Z",
+  "updatedAt": "2026-05-17T00:30:25.800Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2609,6 +2609,9 @@
     },
     {
       "handle": "kimjeffreyx"
+    },
+    {
+      "handle": "janustiu"
     }
   ],
   "tiktok": [

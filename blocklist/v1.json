@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-18T11:13:14.921Z",
+  "updatedAt": "2026-05-18T11:46:38.805Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2361,6 +2361,10 @@
     {
       "handle": "@Romayroh",
       "channelId": "UCxI3-49z98MUKF3wTVJ9nkg"
+    },
+    {
+      "handle": "@W2SClips",
+      "channelId": "UCZiJzk4wTIzaqHI4FXZ_eRQ"
     }
   ],
   "instagram": [

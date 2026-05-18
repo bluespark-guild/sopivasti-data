@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-17T09:01:40.624Z",
+  "updatedAt": "2026-05-18T11:13:14.921Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2349,6 +2349,18 @@
     {
       "handle": "@MeditationalState",
       "channelId": "UCakcbmpdEhEYNcM0WBmYtJQ"
+    },
+    {
+      "handle": "@PaulYuNow",
+      "channelId": "UCaBwuyjVJ-SbBNMNxGnU1qA"
+    },
+    {
+      "handle": "@ColtonConnelly",
+      "channelId": "UCW2YkvqjQ8KKUOVUCFDEcgA"
+    },
+    {
+      "handle": "@Romayroh",
+      "channelId": "UCxI3-49z98MUKF3wTVJ9nkg"
     }
   ],
   "instagram": [

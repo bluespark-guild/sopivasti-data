@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-19T01:57:09.328Z",
+  "updatedAt": "2026-05-19T12:58:53.399Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2373,6 +2373,10 @@
     {
       "handle": "@FullThrottleLore",
       "channelId": "UCOluG8Ztr00u9G9H_ALAS-g"
+    },
+    {
+      "handle": "@SuhhDudeGaming",
+      "channelId": "UC9oSDbqstVQXxMae-G3ZBxQ"
     }
   ],
   "instagram": [

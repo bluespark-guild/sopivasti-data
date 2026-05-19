@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-19T12:58:53.399Z",
+  "updatedAt": "2026-05-19T12:59:55.950Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2377,6 +2377,10 @@
     {
       "handle": "@SuhhDudeGaming",
       "channelId": "UC9oSDbqstVQXxMae-G3ZBxQ"
+    },
+    {
+      "handle": "@TheLawOfFitness",
+      "channelId": "UCEhllhUEp5oEYy3c1guoTzg"
     }
   ],
   "instagram": [

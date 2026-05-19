@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-19T01:54:30.193Z",
+  "updatedAt": "2026-05-19T01:57:09.328Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2680,6 +2680,9 @@
     {
       "handle": "kimjeffreyx",
       "userId": "7224804373394113543"
+    },
+    {
+      "handle": "fullthrottlelore"
     }
   ],
   "twitch": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-19T01:54:14.394Z",
+  "updatedAt": "2026-05-19T01:54:30.193Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2651,6 +2651,9 @@
     },
     {
       "handle": "audreycaprianni"
+    },
+    {
+      "handle": "fullthrottlelore"
     }
   ],
   "tiktok": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-19T01:33:36.538Z",
+  "updatedAt": "2026-05-19T01:54:14.394Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2369,6 +2369,10 @@
     {
       "handle": "@Floppy_Demon",
       "channelId": "UCOqxPXqJHnahafPYB0IWlJQ"
+    },
+    {
+      "handle": "@FullThrottleLore",
+      "channelId": "UCOluG8Ztr00u9G9H_ALAS-g"
     }
   ],
   "instagram": [

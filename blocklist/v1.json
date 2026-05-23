@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T01:09:53.207Z",
+  "updatedAt": "2026-05-23T03:48:57.505Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2397,6 +2397,10 @@
     {
       "handle": "@OnlyRihanna",
       "channelId": "UC8Uly1tfcbalhbBPMHy-a6w"
+    },
+    {
+      "handle": "@Zyrofunny99",
+      "channelId": "UCatTYVLPNnu7Ynf5ssZSdCw"
     }
   ],
   "instagram": [

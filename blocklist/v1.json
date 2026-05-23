@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T03:48:57.505Z",
+  "updatedAt": "2026-05-23T09:33:43.160Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2401,6 +2401,10 @@
     {
       "handle": "@Zyrofunny99",
       "channelId": "UCatTYVLPNnu7Ynf5ssZSdCw"
+    },
+    {
+      "handle": "@KFever-i4x",
+      "channelId": "UCC8QxTKfyh58DYwYCiaI9Hg"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T09:33:43.160Z",
+  "updatedAt": "2026-05-23T09:36:25.836Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2405,6 +2405,10 @@
     {
       "handle": "@KFever-i4x",
       "channelId": "UCC8QxTKfyh58DYwYCiaI9Hg"
+    },
+    {
+      "handle": "@TheGaymerHD.",
+      "channelId": "UCreA7akCqd7h57TAULzG05A"
     }
   ],
   "instagram": [

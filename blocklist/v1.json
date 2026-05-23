@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T01:04:42.286Z",
+  "updatedAt": "2026-05-23T01:09:53.207Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2393,6 +2393,10 @@
     {
       "handle": "@lucyisdewy",
       "channelId": "UC_RYKKbtJosocBqHPgZ-p3g"
+    },
+    {
+      "handle": "@OnlyRihanna",
+      "channelId": "UC8Uly1tfcbalhbBPMHy-a6w"
     }
   ],
   "instagram": [

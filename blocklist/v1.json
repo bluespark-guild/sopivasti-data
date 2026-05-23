@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T11:37:17.186Z",
+  "updatedAt": "2026-05-23T23:11:46.745Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2417,6 +2417,10 @@
     {
       "handle": "@OfficialSteffenMiro",
       "channelId": "UCkEj6ePNBpVtBz3-uNh54yg"
+    },
+    {
+      "handle": "@natashaangeliquen",
+      "channelId": "UCj2yaanh8XFczfRgC2asRhA"
     }
   ],
   "instagram": [
@@ -2713,6 +2717,24 @@
     },
     {
       "handle": "brandneweats"
+    },
+    {
+      "handle": "DIAKIMEKO"
+    },
+    {
+      "handle": "natashaangeliquen"
+    },
+    {
+      "handle": "poopthien"
+    },
+    {
+      "handle": "patrickta"
+    },
+    {
+      "handle": "patricktabeauty"
+    },
+    {
+      "handle": "jooshica"
     }
   ],
   "tiktok": [
@@ -2745,6 +2767,21 @@
     },
     {
       "handle": "lucyisdewy"
+    },
+    {
+      "handle": "diakimek0"
+    },
+    {
+      "handle": "natashaangeliquen"
+    },
+    {
+      "handle": "poopthien"
+    },
+    {
+      "handle": "nomeinmother"
+    },
+    {
+      "handle": "itsseansolo"
     }
   ],
   "twitch": [

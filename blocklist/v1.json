@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T09:36:25.836Z",
+  "updatedAt": "2026-05-23T11:30:06.531Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2702,6 +2702,9 @@
     },
     {
       "handle": "lucyisdewy"
+    },
+    {
+      "handle": "brandneweats"
     }
   ],
   "tiktok": [

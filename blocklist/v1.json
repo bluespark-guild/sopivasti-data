@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T23:11:46.745Z",
+  "updatedAt": "2026-05-23T23:15:14.268Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2421,6 +2421,14 @@
     {
       "handle": "@natashaangeliquen",
       "channelId": "UCj2yaanh8XFczfRgC2asRhA"
+    },
+    {
+      "handle": "@seb1nnn",
+      "channelId": "UCpOtHjfr_hcAhPTky6OWcHA"
+    },
+    {
+      "handle": "@avivamehta",
+      "channelId": "UCqWwl0m6l4i3yAyrDPxFwdQ"
     }
   ],
   "instagram": [
@@ -2735,6 +2743,18 @@
     },
     {
       "handle": "jooshica"
+    },
+    {
+      "handle": "aaaaadna.n"
+    },
+    {
+      "handle": "techababy"
+    },
+    {
+      "handle": "daisychoiii"
+    },
+    {
+      "handle": "vivamehta"
     }
   ],
   "tiktok": [
@@ -2782,6 +2802,12 @@
     },
     {
       "handle": "itsseansolo"
+    },
+    {
+      "handle": "daisychoiii"
+    },
+    {
+      "handle": "avivamehta"
     }
   ],
   "twitch": [

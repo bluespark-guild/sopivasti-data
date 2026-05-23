@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T11:30:28.758Z",
+  "updatedAt": "2026-05-23T11:37:17.186Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2413,6 +2413,10 @@
     {
       "handle": "@brandneweats",
       "channelId": "UCB1gKbP2L7PgIeY2kZqFb4g"
+    },
+    {
+      "handle": "@OfficialSteffenMiro",
+      "channelId": "UCkEj6ePNBpVtBz3-uNh54yg"
     }
   ],
   "instagram": [

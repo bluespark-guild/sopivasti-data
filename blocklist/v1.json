@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-19T12:59:55.950Z",
+  "updatedAt": "2026-05-23T00:43:24.222Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2381,6 +2381,14 @@
     {
       "handle": "@TheLawOfFitness",
       "channelId": "UCEhllhUEp5oEYy3c1guoTzg"
+    },
+    {
+      "handle": "@ReactionUniverseY-td2qw",
+      "channelId": "UCXSwl0CEGIxjyDrqnuLY8Jg"
+    },
+    {
+      "handle": "@imgoochy",
+      "channelId": "UChXI8QSzITrct1rN38ifRLQ"
     }
   ],
   "instagram": [
@@ -2662,6 +2670,15 @@
     },
     {
       "handle": "fullthrottlelore"
+    },
+    {
+      "handle": "masteroogwgay"
+    },
+    {
+      "handle": "masteroogwgay2"
+    },
+    {
+      "handle": "omersastimm"
     }
   ],
   "tiktok": [

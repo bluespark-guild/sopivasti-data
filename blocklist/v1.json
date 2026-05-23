@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T00:43:24.222Z",
+  "updatedAt": "2026-05-23T01:04:42.286Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2389,6 +2389,10 @@
     {
       "handle": "@imgoochy",
       "channelId": "UChXI8QSzITrct1rN38ifRLQ"
+    },
+    {
+      "handle": "@lucyisdewy",
+      "channelId": "UC_RYKKbtJosocBqHPgZ-p3g"
     }
   ],
   "instagram": [
@@ -2679,6 +2683,9 @@
     },
     {
       "handle": "omersastimm"
+    },
+    {
+      "handle": "lucyisdewy"
     }
   ],
   "tiktok": [
@@ -2708,6 +2715,9 @@
     },
     {
       "handle": "fullthrottlelore"
+    },
+    {
+      "handle": "lucyisdewy"
     }
   ],
   "twitch": [

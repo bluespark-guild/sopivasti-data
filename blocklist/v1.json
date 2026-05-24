@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T06:55:15.069Z",
+  "updatedAt": "2026-05-24T06:58:07.398Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2493,6 +2493,10 @@
     {
       "handle": "@DoubleFeedMedia",
       "channelId": "UCb0FuJ6wdSFuLXxO3iIp0Sw"
+    },
+    {
+      "handle": "@Rzpid-k4m",
+      "channelId": "UCLMIIxKSs6yO7biGNhHgTDQ"
     }
   ],
   "instagram": [
@@ -2970,6 +2974,10 @@
     {
       "handle": "ryaneix",
       "userId": "40233427698"
+    },
+    {
+      "handle": "rzpid_1",
+      "userId": "67009890873"
     }
   ],
   "tiktok": [
@@ -3047,6 +3055,9 @@
     },
     {
       "handle": "ryaneix"
+    },
+    {
+      "handle": "rzpid"
     }
   ],
   "twitch": [

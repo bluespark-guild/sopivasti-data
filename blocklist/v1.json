@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T00:16:15.122Z",
+  "updatedAt": "2026-05-24T00:16:51.868Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2429,6 +2429,10 @@
     {
       "handle": "@avivamehta",
       "channelId": "UCqWwl0m6l4i3yAyrDPxFwdQ"
+    },
+    {
+      "handle": "@Garbo_Zhu",
+      "channelId": "UCjkfjKQ5u6kSRuOFUDvsO0A"
     }
   ],
   "instagram": [

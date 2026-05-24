@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:49:40.886Z",
+  "updatedAt": "2026-05-24T02:52:00.975Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2485,6 +2485,10 @@
     {
       "handle": "@BestofXYTShorts",
       "channelId": "UCnADKu77ESGnoIVH03ANbGQ"
+    },
+    {
+      "handle": "@LeoPianno",
+      "channelId": "UCjhOLMY3BNdZiy9uOEaRieA"
     }
   ],
   "instagram": [

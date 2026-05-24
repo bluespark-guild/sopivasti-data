@@ -1,0 +1,5 @@
+# ban toolchain (research.py / add.py / purge.py / lib/*).
+# curl_cffi provides Chrome TLS/JA3/HTTP2 impersonation — the fingerprint that
+# defeats Instagram/TikTok anti-bot (plain clients get HTTP 400 / challenge
+# shells). No other runtime deps: parsing is stdlib regex + json.
+curl_cffi>=0.7

@@ -3,7 +3,7 @@
  * Drain the HQ Komma apply queue.
  *
  * Pulls pending block items from `${HQ_BASE_URL}/api/komma/apply-queue` (bearer auth),
- * runs `add.mjs youtube @<handle>` for each, commits everything in one commit,
+ * runs `add.py youtube @<handle>` for each, commits everything in one commit,
  * pushes, then ACKs all consumed items so HQ deletes them from KV.
  *
  * Designed to run on cron (every 15 min) from sopivasti-data. No GitHub PAT needed —
@@ -102,7 +102,7 @@ async function main() {
     }
     const handle = item.handle.startsWith('@') ? item.handle : `@${item.handle}`;
     try {
-      await run('node', ['scripts/add.mjs', 'youtube', handle]);
+      await run('python3', ['scripts/add.py', 'youtube', handle]);
       applied.push(item);
       console.log(`  ✓ ${handle}`);
     } catch (e) {

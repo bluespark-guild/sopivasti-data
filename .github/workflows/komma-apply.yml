@@ -25,6 +25,13 @@ jobs:
         with:
           node-version: "22"
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install Python resolver deps
+        run: pip install -r scripts/requirements.txt
+
       - name: Drain apply queue from HQ
         env:
           HQ_BASE_URL: ${{ secrets.HQ_BASE_URL }}

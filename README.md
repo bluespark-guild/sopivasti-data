@@ -14,17 +14,20 @@ The extension fetches files directly from `raw.githubusercontent.com` — no Clo
 
 ```bash
 # YouTube
-node scripts/add.mjs youtube scam @scammer1
+python3 scripts/add.py youtube @scammer1
 # → Resolving channel ID for @scammer1…
 # → ✓ added @scammer1 → UCabcdef1234567890abcdef
 # → Staged. Commit + push:
-# →   git commit -m "blocklist: add @scammer1 (scam — <reason>)"
+# →   git commit -m "blocklist: add @scammer1 (<reason>)"
 
 # Instagram
-node scripts/add.mjs instagram onlyfans fakebrand_co
+python3 scripts/add.py instagram fakebrand_co
 # → Resolving user ID for fakebrand_co…
 # → ✓ added fakebrand_co → 1234567890
 ```
+
+> Resolution uses curl_cffi with Chrome impersonation, so Instagram user-IDs
+> resolve (plain HTTP clients get blocked). Requires `pip install -r scripts/requirements.txt`.
 
 After the script runs, write the commit message with the reason and push.
 

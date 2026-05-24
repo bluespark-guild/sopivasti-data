@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T00:29:23.481Z",
+  "updatedAt": "2026-05-24T00:41:36.840Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2437,6 +2437,10 @@
     {
       "handle": "@mikirai",
       "channelId": "UC3f6OYvhpV-pmTYgikEbF1g"
+    },
+    {
+      "handle": "@ericnomics",
+      "channelId": "UCd8vOdHNij443VDVEnY7r2Q"
     }
   ],
   "instagram": [
@@ -2773,6 +2777,10 @@
     {
       "handle": "mikirai",
       "userId": "27012090"
+    },
+    {
+      "handle": "ericnomics",
+      "userId": "55169959443"
     }
   ],
   "tiktok": [

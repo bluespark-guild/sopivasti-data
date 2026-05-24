@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T06:47:53.339Z",
+  "updatedAt": "2026-05-24T06:55:15.069Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2966,6 +2966,10 @@
     {
       "handle": "umxe",
       "userId": "3584543208"
+    },
+    {
+      "handle": "ryaneix",
+      "userId": "40233427698"
     }
   ],
   "tiktok": [
@@ -3040,6 +3044,9 @@
     },
     {
       "handle": "umxe"
+    },
+    {
+      "handle": "ryaneix"
     }
   ],
   "twitch": [

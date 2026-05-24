@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:38:03.937Z",
+  "updatedAt": "2026-05-24T02:43:59.226Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2469,6 +2469,10 @@
     {
       "handle": "@RAWRTCG",
       "channelId": "UC176ABs21v4tUKtTYMqJGiQ"
+    },
+    {
+      "handle": "@Dota2PowerPoints",
+      "channelId": "UCh6_6pZ5idSaBJQ-5GCRhNA"
     }
   ],
   "instagram": [

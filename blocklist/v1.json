@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:30:51.333Z",
+  "updatedAt": "2026-05-24T02:32:20.859Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2449,6 +2449,10 @@
     {
       "handle": "@pikacodes",
       "channelId": "UCzwS0YRkrTMuAasGntVfUlQ"
+    },
+    {
+      "handle": "@BigTechnologyPodcast",
+      "channelId": "UCaKiCexVhZ459j9sZ2e7XdQ"
     }
   ],
   "instagram": [

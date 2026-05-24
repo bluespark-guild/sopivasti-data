@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:49:07.949Z",
+  "updatedAt": "2026-05-24T02:49:40.886Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2477,6 +2477,14 @@
     {
       "handle": "@kanhuang",
       "channelId": "UCK5AQncmlyKFbI-cCUkS3-g"
+    },
+    {
+      "handle": "@bestofx5998",
+      "channelId": "UCCkmYMh85RxrwESOVK-_jTQ"
+    },
+    {
+      "handle": "@BestofXYTShorts",
+      "channelId": "UCnADKu77ESGnoIVH03ANbGQ"
     }
   ],
   "instagram": [
@@ -3007,6 +3015,9 @@
     },
     {
       "handle": "pikacodes"
+    },
+    {
+      "handle": "socialwave"
     }
   ],
   "twitch": [

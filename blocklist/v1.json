@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-23T23:25:45.456Z",
+  "updatedAt": "2026-05-24T00:16:15.122Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2758,6 +2758,9 @@
     },
     {
       "handle": "iamrawan"
+    },
+    {
+      "handle": "garbo.zhu"
     }
   ],
   "tiktok": [

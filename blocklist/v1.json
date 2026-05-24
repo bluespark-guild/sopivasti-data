@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T00:41:36.840Z",
+  "updatedAt": "2026-05-24T00:53:41.724Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2781,6 +2781,10 @@
     {
       "handle": "ericnomics",
       "userId": "55169959443"
+    },
+    {
+      "handle": "raso_andrew",
+      "userId": "67795544451"
     }
   ],
   "tiktok": [

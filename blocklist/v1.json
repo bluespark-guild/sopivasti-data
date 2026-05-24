@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:32:20.859Z",
+  "updatedAt": "2026-05-24T02:35:08.425Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2453,6 +2453,10 @@
     {
       "handle": "@BigTechnologyPodcast",
       "channelId": "UCaKiCexVhZ459j9sZ2e7XdQ"
+    },
+    {
+      "handle": "@HELENAMNR.",
+      "channelId": "UCDtk8tDMC1Ee0Uq0rA3ao2g"
     }
   ],
   "instagram": [

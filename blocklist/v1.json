@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T01:11:53.990Z",
+  "updatedAt": "2026-05-24T02:15:27.516Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2441,6 +2441,10 @@
     {
       "handle": "@ericnomics",
       "channelId": "UCd8vOdHNij443VDVEnY7r2Q"
+    },
+    {
+      "handle": "@kimivibes99",
+      "channelId": "UC_ahWr9WwGXz0pc0hQIAjeA"
     }
   ],
   "instagram": [

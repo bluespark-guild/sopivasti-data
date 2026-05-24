@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:54:23.019Z",
+  "updatedAt": "2026-05-24T03:36:53.949Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2489,6 +2489,10 @@
     {
       "handle": "@LeoPianno",
       "channelId": "UCjhOLMY3BNdZiy9uOEaRieA"
+    },
+    {
+      "handle": "@DoubleFeedMedia",
+      "channelId": "UCb0FuJ6wdSFuLXxO3iIp0Sw"
     }
   ],
   "instagram": [

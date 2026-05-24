@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:35:08.425Z",
+  "updatedAt": "2026-05-24T02:36:56.673Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2457,6 +2457,10 @@
     {
       "handle": "@HELENAMNR.",
       "channelId": "UCDtk8tDMC1Ee0Uq0rA3ao2g"
+    },
+    {
+      "handle": "@SiimplyGrinding",
+      "channelId": "UCimaxNWaP51jV_Rzc976ohQ"
     }
   ],
   "instagram": [

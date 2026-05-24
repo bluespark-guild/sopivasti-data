@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T00:17:11.218Z",
+  "updatedAt": "2026-05-24T00:29:23.481Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2433,6 +2433,10 @@
     {
       "handle": "@Garbo_Zhu",
       "channelId": "UCjkfjKQ5u6kSRuOFUDvsO0A"
+    },
+    {
+      "handle": "@mikirai",
+      "channelId": "UC3f6OYvhpV-pmTYgikEbF1g"
     }
   ],
   "instagram": [
@@ -2765,6 +2769,10 @@
     },
     {
       "handle": "garbo.zhu"
+    },
+    {
+      "handle": "mikirai",
+      "userId": "27012090"
     }
   ],
   "tiktok": [
@@ -2824,6 +2832,9 @@
     },
     {
       "handle": "garbo.zhu"
+    },
+    {
+      "handle": "mikiraiofficial"
     }
   ],
   "twitch": [

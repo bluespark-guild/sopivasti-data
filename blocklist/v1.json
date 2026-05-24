@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:53:39.109Z",
+  "updatedAt": "2026-05-24T02:54:23.019Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3026,6 +3026,9 @@
     },
     {
       "handle": "socialwave"
+    },
+    {
+      "handle": "graceyyliu"
     }
   ],
   "twitch": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:46:08.280Z",
+  "updatedAt": "2026-05-24T02:46:34.384Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2934,6 +2934,10 @@
     {
       "handle": "socialwave.au",
       "userId": "34958898182"
+    },
+    {
+      "handle": "kanxhuang_",
+      "userId": "80290279604"
     }
   ],
   "tiktok": [

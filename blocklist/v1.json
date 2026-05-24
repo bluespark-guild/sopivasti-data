@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:23:18.236Z",
+  "updatedAt": "2026-05-24T02:25:24.429Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2960,6 +2960,9 @@
     },
     {
       "handle": "mikiraiofficial"
+    },
+    {
+      "handle": "pikacodes"
     }
   ],
   "twitch": [

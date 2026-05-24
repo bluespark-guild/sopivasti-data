@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T02:25:24.429Z",
+  "updatedAt": "2026-05-24T02:30:04.540Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2445,6 +2445,10 @@
     {
       "handle": "@kimivibes99",
       "channelId": "UC_ahWr9WwGXz0pc0hQIAjeA"
+    },
+    {
+      "handle": "@pikacodes",
+      "channelId": "UCzwS0YRkrTMuAasGntVfUlQ"
     }
   ],
   "instagram": [

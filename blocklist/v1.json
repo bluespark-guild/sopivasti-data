@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-26T00:54:58.634Z",
+  "updatedAt": "2026-05-26T09:40:01.559Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2505,6 +2505,10 @@
     {
       "handle": "@taylorndean",
       "channelId": "UCaOTXKuQ-t-eTikY96B9n-Q"
+    },
+    {
+      "handle": "@validhoop",
+      "channelId": "UCPaVoMzmk3ZMO1yQYN5Ug2A"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-24T06:58:07.398Z",
+  "updatedAt": "2026-05-26T00:49:51.830Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2497,6 +2497,10 @@
     {
       "handle": "@Rzpid-k4m",
       "channelId": "UCLMIIxKSs6yO7biGNhHgTDQ"
+    },
+    {
+      "handle": "@vintfabianedits",
+      "channelId": "UC0E43tjBh4dyRH45ATvTncA"
     }
   ],
   "instagram": [

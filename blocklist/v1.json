@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-26T00:49:51.830Z",
+  "updatedAt": "2026-05-26T00:54:58.634Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2501,6 +2501,10 @@
     {
       "handle": "@vintfabianedits",
       "channelId": "UC0E43tjBh4dyRH45ATvTncA"
+    },
+    {
+      "handle": "@taylorndean",
+      "channelId": "UCaOTXKuQ-t-eTikY96B9n-Q"
     }
   ],
   "instagram": [

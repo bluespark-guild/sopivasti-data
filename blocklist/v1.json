@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-26T09:40:01.559Z",
+  "updatedAt": "2026-05-27T09:33:01.323Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2509,6 +2509,18 @@
     {
       "handle": "@validhoop",
       "channelId": "UCPaVoMzmk3ZMO1yQYN5Ug2A"
+    },
+    {
+      "handle": "@Frosti69",
+      "channelId": "UCOH10UPAiZHn9xaJqgBxPbg"
+    },
+    {
+      "handle": "@KingNidhogg",
+      "channelId": "UCOpXSpY3_kbXHCODrg5ed5Q"
+    },
+    {
+      "handle": "@WOLFMoneyOG",
+      "channelId": "UCJ6I13nwhLMVlF-acwrTGHQ"
     }
   ],
   "instagram": [

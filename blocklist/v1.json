@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-28T00:08:07.464Z",
+  "updatedAt": "2026-05-28T00:11:27.377Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2529,6 +2529,14 @@
     {
       "handle": "@mediumrarevibes",
       "channelId": "UCHbLD7309xNlONOQx9ZDcHw"
+    },
+    {
+      "handle": "@BonniesClips",
+      "channelId": "UCeSBBbpfoHUe_ebif4p1D9A"
+    },
+    {
+      "handle": "@bonnierabbitvods1436",
+      "channelId": "UCABP83fW54dHKyo-Mjjk1rg"
     }
   ],
   "instagram": [
@@ -3010,6 +3018,10 @@
     {
       "handle": "rzpid_1",
       "userId": "67009890873"
+    },
+    {
+      "handle": "bonnierabbit",
+      "userId": "3194423918"
     }
   ],
   "tiktok": [
@@ -3255,6 +3267,10 @@
     {
       "handle": "ohnepixel",
       "userId": "43683025"
+    },
+    {
+      "handle": "bonnie",
+      "userId": "485587109"
     }
   ]
 }

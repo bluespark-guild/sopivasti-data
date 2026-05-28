@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-28T00:11:27.377Z",
+  "updatedAt": "2026-05-28T00:16:52.989Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2537,6 +2537,10 @@
     {
       "handle": "@bonnierabbitvods1436",
       "channelId": "UCABP83fW54dHKyo-Mjjk1rg"
+    },
+    {
+      "handle": "@TechClipsFactory",
+      "channelId": "UCD9C6SkYFgg1pkabyRqocHg"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-28T00:32:49.341Z",
+  "updatedAt": "2026-05-28T00:34:05.232Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2545,6 +2545,10 @@
     {
       "handle": "@evdwizb1t",
       "channelId": "UCzRsCAxUBPa1GH4aTijKtQA"
+    },
+    {
+      "handle": "@RakaiLiveee",
+      "channelId": "UCN-ivq8OXsQza66HbkHohPA"
     }
   ],
   "instagram": [
@@ -3030,6 +3034,10 @@
     {
       "handle": "bonnierabbit",
       "userId": "3194423918"
+    },
+    {
+      "handle": "2xrakai",
+      "userId": "64138938773"
     }
   ],
   "tiktok": [
@@ -3279,6 +3287,10 @@
     {
       "handle": "bonnie",
       "userId": "485587109"
+    },
+    {
+      "handle": "2xrakai",
+      "userId": "997729120"
     }
   ]
 }

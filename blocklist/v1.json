@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-28T00:04:27.013Z",
+  "updatedAt": "2026-05-28T00:08:07.464Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2525,6 +2525,10 @@
     {
       "handle": "@Everything_KpopVODs",
       "channelId": "UCWEM5FfEWq3Mco1mrgkthsg"
+    },
+    {
+      "handle": "@mediumrarevibes",
+      "channelId": "UCHbLD7309xNlONOQx9ZDcHw"
     }
   ],
   "instagram": [

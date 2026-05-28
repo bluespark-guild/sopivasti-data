@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-27T09:33:01.323Z",
+  "updatedAt": "2026-05-28T00:04:27.013Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2521,6 +2521,10 @@
     {
       "handle": "@WOLFMoneyOG",
       "channelId": "UCJ6I13nwhLMVlF-acwrTGHQ"
+    },
+    {
+      "handle": "@Everything_KpopVODs",
+      "channelId": "UCWEM5FfEWq3Mco1mrgkthsg"
     }
   ],
   "instagram": [

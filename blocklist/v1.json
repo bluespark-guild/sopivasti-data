@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-28T00:34:05.232Z",
+  "updatedAt": "2026-05-28T01:37:41.891Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3038,6 +3038,10 @@
     {
       "handle": "2xrakai",
       "userId": "64138938773"
+    },
+    {
+      "handle": "prisciliajanice",
+      "userId": "463739383"
     }
   ],
   "tiktok": [

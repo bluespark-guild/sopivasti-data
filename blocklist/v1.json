@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-28T01:37:41.891Z",
+  "updatedAt": "2026-05-30T00:22:44.195Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2549,6 +2549,10 @@
     {
       "handle": "@RakaiLiveee",
       "channelId": "UCN-ivq8OXsQza66HbkHohPA"
+    },
+    {
+      "handle": "@MikeKruzich",
+      "channelId": "UCqLp8WmkB_E-K9aWVGjynuw"
     }
   ],
   "instagram": [
@@ -3042,6 +3046,10 @@
     {
       "handle": "prisciliajanice",
       "userId": "463739383"
+    },
+    {
+      "handle": "michaelkruzich",
+      "userId": "210969684"
     }
   ],
   "tiktok": [
@@ -3122,6 +3130,10 @@
     },
     {
       "handle": "rzpid"
+    },
+    {
+      "handle": "mikekruzich",
+      "userId": "6798699522093761542"
     }
   ],
   "twitch": [

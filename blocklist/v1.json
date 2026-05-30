@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T07:55:16.096Z",
+  "updatedAt": "2026-05-30T07:59:02.332Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3114,6 +3114,10 @@
     {
       "handle": "zach2kyt",
       "userId": "32770414567"
+    },
+    {
+      "handle": "summer_travel23",
+      "userId": "71612759062"
     }
   ],
   "tiktok": [

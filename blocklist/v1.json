@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T07:44:11.499Z",
+  "updatedAt": "2026-05-30T07:47:49.176Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2597,6 +2597,10 @@
     {
       "handle": "@JakeCooperFM",
       "channelId": "UCrADlix_abDTJT0ZL7VLQCw"
+    },
+    {
+      "handle": "@zach_yadegari",
+      "channelId": "UCTNtJUYuQJMeafkOmwmdAzQ"
     }
   ],
   "instagram": [

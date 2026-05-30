@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T03:55:05.980Z",
+  "updatedAt": "2026-05-30T04:04:27.245Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3094,6 +3094,10 @@
     {
       "handle": "tigercleanaus",
       "userId": "48151986842"
+    },
+    {
+      "handle": "zach2kyt",
+      "userId": "32770414567"
     }
   ],
   "tiktok": [
@@ -3182,6 +3186,10 @@
     {
       "handle": "filatov.designs",
       "userId": "7474602136631428118"
+    },
+    {
+      "handle": "zach2kyt",
+      "userId": "6821149803666867205"
     }
   ],
   "twitch": [
@@ -3355,6 +3363,10 @@
     {
       "handle": "2xrakai",
       "userId": "997729120"
+    },
+    {
+      "handle": "imzach2k",
+      "userId": "602746588"
     }
   ]
 }

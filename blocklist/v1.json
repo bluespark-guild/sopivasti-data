@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T02:21:17.011Z",
+  "updatedAt": "2026-05-30T02:22:17.223Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2573,6 +2573,10 @@
     {
       "handle": "@RaiderEU",
       "channelId": "UCjkEHkUtf3Hr_0KpjHkC4eg"
+    },
+    {
+      "handle": "@zazainchina",
+      "channelId": "UCgWzUjKQukhhAHwVv3dqGgQ"
     }
   ],
   "instagram": [

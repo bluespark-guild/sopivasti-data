@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T01:32:33.335Z",
+  "updatedAt": "2026-05-30T01:33:42.442Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2557,6 +2557,10 @@
     {
       "handle": "@kohlorendorf",
       "channelId": "UCaVXvoQPbqvrS7oCzTP2n0Q"
+    },
+    {
+      "handle": "@anotherlolarchive",
+      "channelId": "UC2QYMr60GN53C52ksCJ3duw"
     }
   ],
   "instagram": [

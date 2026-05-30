@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T00:25:20.588Z",
+  "updatedAt": "2026-05-30T01:32:33.335Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2553,6 +2553,10 @@
     {
       "handle": "@MikeKruzich",
       "channelId": "UCqLp8WmkB_E-K9aWVGjynuw"
+    },
+    {
+      "handle": "@kohlorendorf",
+      "channelId": "UCaVXvoQPbqvrS7oCzTP2n0Q"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T07:47:49.176Z",
+  "updatedAt": "2026-05-30T07:55:16.096Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2601,6 +2601,10 @@
     {
       "handle": "@zach_yadegari",
       "channelId": "UCTNtJUYuQJMeafkOmwmdAzQ"
+    },
+    {
+      "handle": "@Pclitty",
+      "channelId": "UCtPnjttMCCNfCxgX5EbIylQ"
     }
   ],
   "instagram": [

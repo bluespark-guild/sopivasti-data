@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T02:19:18.776Z",
+  "updatedAt": "2026-05-30T02:21:17.011Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2569,6 +2569,10 @@
     {
       "handle": "@AndrewDropshipping",
       "channelId": "UCMfB7omlKWPzrvsiONeZMow"
+    },
+    {
+      "handle": "@RaiderEU",
+      "channelId": "UCjkEHkUtf3Hr_0KpjHkC4eg"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T02:39:52.669Z",
+  "updatedAt": "2026-05-30T03:16:20.118Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2577,6 +2577,10 @@
     {
       "handle": "@zazainchina",
       "channelId": "UCgWzUjKQukhhAHwVv3dqGgQ"
+    },
+    {
+      "handle": "@Itselainepark",
+      "channelId": "UCwjSULn8-uq_AZXcknmTsfQ"
     }
   ],
   "instagram": [

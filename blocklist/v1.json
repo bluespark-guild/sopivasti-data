@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T00:22:44.195Z",
+  "updatedAt": "2026-05-30T00:25:20.588Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3050,6 +3050,10 @@
     {
       "handle": "michaelkruzich",
       "userId": "210969684"
+    },
+    {
+      "handle": "filatov.design",
+      "userId": "42740639607"
     }
   ],
   "tiktok": [
@@ -3134,6 +3138,10 @@
     {
       "handle": "mikekruzich",
       "userId": "6798699522093761542"
+    },
+    {
+      "handle": "filatov.designs",
+      "userId": "7474602136631428118"
     }
   ],
   "twitch": [

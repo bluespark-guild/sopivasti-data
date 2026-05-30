@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T10:47:41.483Z",
+  "updatedAt": "2026-05-30T11:08:43.429Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2617,6 +2617,10 @@
     {
       "handle": "@JasonTheWeenie",
       "channelId": "UCxoKaKMzulp6sfQGOhNJnzQ"
+    },
+    {
+      "handle": "@janineluk",
+      "channelId": "UCYVAJqy8gmSorxRDI6q6jeg"
     }
   ],
   "instagram": [
@@ -3138,6 +3142,10 @@
     {
       "handle": "launchqueen_",
       "userId": "46992430488"
+    },
+    {
+      "handle": "janineluk",
+      "userId": "194793815"
     }
   ],
   "tiktok": [
@@ -3234,6 +3242,9 @@
     {
       "handle": "jasontheween",
       "userId": "6932655024527082501"
+    },
+    {
+      "handle": "janineluk"
     }
   ],
   "twitch": [

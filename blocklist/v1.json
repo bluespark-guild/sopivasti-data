@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T10:27:54.204Z",
+  "updatedAt": "2026-05-30T10:28:27.872Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3226,6 +3226,10 @@
     {
       "handle": "zach2kyt",
       "userId": "6821149803666867205"
+    },
+    {
+      "handle": "jasontheween",
+      "userId": "6932655024527082501"
     }
   ],
   "twitch": [

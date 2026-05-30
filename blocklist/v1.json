@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T07:59:02.332Z",
+  "updatedAt": "2026-05-30T10:07:03.587Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2605,6 +2605,10 @@
     {
       "handle": "@Pclitty",
       "channelId": "UCtPnjttMCCNfCxgX5EbIylQ"
+    },
+    {
+      "handle": "@george.xander",
+      "channelId": "UCZ10LRYBGJBMns4TInEC8QA"
     }
   ],
   "instagram": [

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T04:17:01.077Z",
+  "updatedAt": "2026-05-30T07:44:11.499Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2593,6 +2593,10 @@
     {
       "handle": "@Kenzo1of1",
       "channelId": "UCZRSI0MEMzv0obkwwHDuNsA"
+    },
+    {
+      "handle": "@JakeCooperFM",
+      "channelId": "UCrADlix_abDTJT0ZL7VLQCw"
     }
   ],
   "instagram": [

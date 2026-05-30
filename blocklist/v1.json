@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T10:07:03.587Z",
+  "updatedAt": "2026-05-30T10:26:47.740Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2609,6 +2609,10 @@
     {
       "handle": "@george.xander",
       "channelId": "UCZ10LRYBGJBMns4TInEC8QA"
+    },
+    {
+      "handle": "@ceciliakimdesign",
+      "channelId": "UCi61xa-UMCkAo3hapTFq_SQ"
     }
   ],
   "instagram": [
@@ -3122,6 +3126,10 @@
     {
       "handle": "summer_travel23",
       "userId": "71612759062"
+    },
+    {
+      "handle": "ceciliakimdesign",
+      "userId": "72818470459"
     }
   ],
   "tiktok": [

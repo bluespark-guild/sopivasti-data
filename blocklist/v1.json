@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-31T05:11:10.041Z",
+  "updatedAt": "2026-05-31T06:37:27.491Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2621,6 +2621,10 @@
     {
       "handle": "@janineluk",
       "channelId": "UCYVAJqy8gmSorxRDI6q6jeg"
+    },
+    {
+      "handle": "@oompaville",
+      "channelId": "UC6Mjg5R5QOJYjrio1JmP8Fg"
     }
   ],
   "instagram": [

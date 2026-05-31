@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-31T06:56:33.434Z",
+  "updatedAt": "2026-05-31T11:10:12.954Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3186,6 +3186,10 @@
     {
       "handle": "drdexdiu",
       "userId": "201686093"
+    },
+    {
+      "handle": "riteshkv_",
+      "userId": "22135798539"
     }
   ],
   "tiktok": [
@@ -3293,6 +3297,10 @@
     {
       "handle": "willphunguyen",
       "userId": "7136438608171205678"
+    },
+    {
+      "handle": "riteshkv",
+      "userId": "6781112835743138821"
     }
   ],
   "twitch": [

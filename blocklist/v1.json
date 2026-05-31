@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-31T06:43:25.114Z",
+  "updatedAt": "2026-05-31T06:56:33.434Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2629,6 +2629,10 @@
     {
       "handle": "@willphunguyen",
       "channelId": "UCSD7RMZbTWugVkwDRXIbpeA"
+    },
+    {
+      "handle": "@DrDexDiu",
+      "channelId": "UCKpMvCKsbfRa1lCTbeT9eqQ"
     }
   ],
   "instagram": [
@@ -3178,6 +3182,10 @@
     {
       "handle": "willphunguyen",
       "userId": "3146224716"
+    },
+    {
+      "handle": "drdexdiu",
+      "userId": "201686093"
     }
   ],
   "tiktok": [

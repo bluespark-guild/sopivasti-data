@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-30T23:12:21.858Z",
+  "updatedAt": "2026-05-31T05:11:10.041Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3158,6 +3158,10 @@
     {
       "handle": "digitalincomeera_",
       "userId": "35695569902"
+    },
+    {
+      "handle": "ux_deniza",
+      "userId": "46163087226"
     }
   ],
   "tiktok": [

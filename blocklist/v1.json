@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-05-31T06:37:27.491Z",
+  "updatedAt": "2026-05-31T06:39:49.189Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -3166,6 +3166,10 @@
     {
       "handle": "ux_deniza",
       "userId": "46163087226"
+    },
+    {
+      "handle": "stephgorton__",
+      "userId": "29449124"
     }
   ],
   "tiktok": [

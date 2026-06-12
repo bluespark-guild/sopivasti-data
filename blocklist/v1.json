@@ -1,7 +1,7 @@
 {
   "version": 1,
   "schema": 1,
-  "updatedAt": "2026-06-08T01:18:57.350Z",
+  "updatedAt": "2026-06-12T08:42:28.791Z",
   "youtube": [
     {
       "handle": "@MrBeast",
@@ -2645,6 +2645,10 @@
     {
       "handle": "@DrDonut-Reacts",
       "channelId": "UCXWUNMX7ng2ZIsy3sgHpGdQ"
+    },
+    {
+      "handle": "@hoopersln",
+      "channelId": "UCiXonsxIlhY-gI-s2qzj-gw"
     }
   ],
   "instagram": [
@@ -3202,6 +3206,13 @@
     {
       "handle": "riteshkv_",
       "userId": "22135798539"
+    },
+    {
+      "handle": "theleoborges",
+      "userId": "1263895"
+    },
+    {
+      "handle": "tracywealthbiz"
     }
   ],
   "tiktok": [
